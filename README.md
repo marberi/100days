@@ -13,3 +13,7 @@ Finished week 1 of the course. While most was known, they had a nice example
 on calculalation stability. Also an interesting example from a linked Halid
 talk on how to speedup a naive convolution in C++ with a factor of 11x. It
 got me thinking on my own code.
+
+# Day 3 [2019-01-21]
+Half the way into video 2. Nothing terrible exciting, but learned that scikit
+learn had functionality for fetching newsgroups and creating the vectors.
