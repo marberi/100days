@@ -17,3 +17,11 @@ got me thinking on my own code.
 # Day 3 [2019-01-21]
 Half the way into video 2. Nothing terrible exciting, but learned that scikit
 learn had functionality for fetching newsgroups and creating the vectors.
+
+# Day 4 [2019-01-22]
+Finished video 2. Experimented around with the PyTorch implementation of
+non-negative matrix factorization. I was surprised how quickly result
+changed from being roughly random to make sense. Also found out that
+PyTorch implements @ for matrix multiplication. For example A @ B is
+the same as A.mm(B). In Numpy you can write A @ B instead of np.dot(A, B).
+
