@@ -25,3 +25,6 @@ changed from being roughly random to make sense. Also found out that
 PyTorch implements @ for matrix multiplication. For example A @ B is
 the same as A.mm(B). In Numpy you can write A @ B instead of np.dot(A, B).
 
+# Day 5 [2019-01-23]
+Almost finished video 3. The most interesting part was when using a random
+algorithm for decomposing a matrix. I hope to implement this tomorrow.
