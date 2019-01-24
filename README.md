@@ -28,3 +28,10 @@ the same as A.mm(B). In Numpy you can write A @ B instead of np.dot(A, B).
 # Day 5 [2019-01-23]
 Almost finished video 3. The most interesting part was when using a random
 algorithm for decomposing a matrix. I hope to implement this tomorrow.
+
+# Day 6 [2019-01-24]
+Ended up reading through https://arxiv.org/pdf/1211.7102.pdf. Among other
+things, the discussed removing singular values in the SVD decomposition to
+denoise the image. Here they gave some examples and also suggested using
+the Frobenius norm as a way of estimating how many componets to remove
+instead of just dropping a fixed number of components.
