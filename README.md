@@ -35,3 +35,8 @@ things, the discussed removing singular values in the SVD decomposition to
 denoise the image. Here they gave some examples and also suggested using
 the Frobenius norm as a way of estimating how many componets to remove
 instead of just dropping a fixed number of components.
+
+# Day 7 [2019-01-25]
+Finished video 3, homework 1 and started on video 4. A bit slow progression
+in the video. At the end Rachel showed how to use SVD for background removal
+in videos. Looking forward for exploring that more..
