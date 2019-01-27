@@ -52,4 +52,6 @@ on a video of a plane landing, it considered the plan background and the
 airport as moving. Below is SVD used on people walking in the park.
 
 ![SVD separation] 
-(https://github.com/marberi/100days/blob/master/people_walking.png)
+(https://github.com/marberi/100days/blob/master/walking.png)
+
+
