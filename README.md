@@ -40,3 +40,15 @@ instead of just dropping a fixed number of components.
 Finished video 3, homework 1 and started on video 4. A bit slow progression
 in the video. At the end Rachel showed how to use SVD for background removal
 in videos. Looking forward for exploring that more..
+
+# Day 8 [2019-01-26]
+Finished video 4 and half of video 5. The examples was based on a dataset
+which no longer is available. Instead I ended up searching for a different
+set of data. The set: http://www.svcl.ucsd.edu/projects/background_subtraction/JPEGS.tar.gz
+included multiple videos, stored as a series of jpeg files. The SVD algorithm
+was suprisingly effective on separating the foreground and background of
+an image. Note that this require a steady camera. When attempting to use this
+on a video of a plane landing, it considered the plan background and the
+airport as moving. Below is SVD used on people walking in the park.
+
+![alt text] people_walking.png (SVD separation).
