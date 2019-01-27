@@ -51,7 +51,6 @@ an image. Note that this require a steady camera. When attempting to use this
 on a video of a plane landing, it considered the plan background and the
 airport as moving. Below is SVD used on people walking in the park.
 
-![SVD separation] 
-(https://github.com/marberi/100days/blob/master/walking.png)
+![SVD separation](https://github.com/marberi/100days/blob/master/walking.png)
 
 
