@@ -54,6 +54,9 @@ airport as moving. Below is SVD used on people walking in the park.
 ![SVD separation](https://github.com/marberi/100days/blob/master/walking.png)
 
 
-# Day 7 [2019-01-27]
+# Day 9 [2019-01-27]
 Finished video 5 and 6, plus doing exercise set 2. Looking more forward for
 tomorrow when they will apply the techniques to CT scans.
+
+# Day 10 [2019-01-28]
+In the middle of video 7. They are still discussing the CT simulations..
