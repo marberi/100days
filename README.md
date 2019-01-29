@@ -60,3 +60,7 @@ tomorrow when they will apply the techniques to CT scans.
 
 # Day 10 [2019-01-28]
 In the middle of video 7. They are still discussing the CT simulations..
+
+# Day 11 [2019-01-29]
+Finished video 7 and 8. It was interesting how much better the CT linear
+regression example looked when using a L1 norm.
