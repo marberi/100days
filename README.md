@@ -78,3 +78,7 @@ is given by a formula. As a result, the answer is almost instantaneous.
 
 Except this, I continued with downloading the DBpedia dataset and watching
 the video.
+
+# Day 14 [2019-02-01]
+Finished video 9 and half of video 10. Nothing too new, but I learned what
+algorithm is hiding behind some names, like the Hausholder algorithm.
