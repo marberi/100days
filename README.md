@@ -67,3 +67,14 @@ regression example looked when using a L1 norm.
 
 # Day 12 [2019-01-30]
 Half the way into video 9. By now learning about page-rank.
+
+# Day 13 [2019-01-31]
+Learned one nice trick on how to estimate the n-th fibonacci number. If
+computing it the straigh forward way using recursion, the runtime increase
+by 2^b. In this case there is a closed form solution, meaning the answer
+is given by a formula. As a result, the answer is almost instantaneous.
+
+![fibonachi](https://github.com/marberi/100days/blob/master/fibonacci.png)
+
+Except this, I continued with downloading the DBpedia dataset and watching
+the video.
