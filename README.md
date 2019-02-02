@@ -82,3 +82,15 @@ the video.
 # Day 14 [2019-02-01]
 Finished video 9 and half of video 10. Nothing too new, but I learned what
 algorithm is hiding behind some names, like the Hausholder algorithm.
+
+# Day 15 [2019-02-02]
+Finished the course on computational linear algebra today. I could have spent
+some more time experimenting with the last notebook, but I instead started
+going back to the deep learning. Reading a blog post on the 2019 edition on the
+fast.ai course introduction course, it seems like they have made significant
+changes. Also the new version of the library and notebooks looks better than
+the previous versions. Earlier their library had substandard code quality and
+messy interfaces. Hopefully ths version is better. It looks more like a designed
+library and not something slapped together to support his classes. Probably I
+will go through the course again, spending more time reading up on background
+material.
