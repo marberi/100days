@@ -94,3 +94,15 @@ messy interfaces. Hopefully ths version is better. It looks more like a designed
 library and not something slapped together to support his classes. Probably I
 will go through the course again, spending more time reading up on background
 material.
+
+
+# Day 16 [2019-02-03]
+![Learning rate finder](https://github.com/marberi/100days/blob/master/fastai_week1_v2.png)
+
+Going through this years fastai lessions definitively seems to be worth it. The
+plot shows tweaking a Resnet50 to separate between 37 breeds of cats and dogs.
+Previous editions only separated between cats and dogs, but this is now 
+considered too easy. The model shown has a 4.9% percent error rate or 95%
+accuracy. Their paper achieved 63.5% and 55.7% accuracy for cats and dogs 
+respectively, without adding an additional segmentation trick. This is 
+quite a large improvement over a few years.
