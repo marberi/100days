@@ -118,3 +118,15 @@ matrix below, the error is about 7%. By visual inspection, several of the
 misclassified images had multiple people and even one woman.
 
 ![Hipster finder](https://github.com/marberi/100days/blob/master/hipster_man.png)
+
+# Day 18 [2019-02-05]
+At work I resumed a project of trying to use a neural network to determine
+galaxy distances. Applying machine learning for this task is quite standard.
+However, the data I work with combines more observations with a higher
+wavelength resolution. Extracting the high precision distances can be
+tricky with a low number of training sets. At home I continued watching
+fastai lesson 2. As the picture below show, they include functions which
+are slightly different from PyTorch. Not extremely excited about these
+hacks.
+
+![Fastai tensor](https://github.com/marberi/100days/blob/master/fastai_tensor.png)
