@@ -106,3 +106,15 @@ considered too easy. The model shown has a 4.9% percent error rate or 95%
 accuracy. Their paper achieved 63.5% and 55.7% accuracy for cats and dogs 
 respectively, without adding an additional segmentation trick. This is 
 quite a large improvement over a few years.
+
+# Day 17 [2019-02-04]
+Playing around with the whale classification competition today, making my first
+submission. Nothing great [0.284] yet, but a first submission to see that
+things was working. I also worked on the fast.ai excersice of creating a
+classifier using a custom dataset. For this I downloaded portraits of hipsters
+and men (excluding hipsters). This is not the simplest classification task,
+given that hipsters are men with a certain style. As seen in the confusion
+matrix below, the error is about 7%. By visual inspection, several of the
+misclassified images had multiple people and even one woman.
+
+![Hipster finder](https://github.com/marberi/100days/blob/master/hipster_man.png)
