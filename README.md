@@ -130,3 +130,10 @@ are slightly different from PyTorch. Not extremely excited about these
 hacks.
 
 ![Fastai tensor](https://github.com/marberi/100days/blob/master/fastai_tensor.png)
+
+# Day 19 [2019-02-06]
+Finished lesson 2 and started on lesson 3. The simple exercise on gradient
+decent for fitting the parameters (slope, intercept) of a line was a nice
+example. In the/one Pytorch tutorial they started from Numpy and used time
+to explain how the autograd functionality saved you from calculating the
+gradients by hand.
