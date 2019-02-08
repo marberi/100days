@@ -137,3 +137,12 @@ decent for fitting the parameters (slope, intercept) of a line was a nice
 example. In the/one Pytorch tutorial they started from Numpy and used time
 to explain how the autograd functionality saved you from calculating the
 gradients by hand.
+
+# Day 20 [2019-02-07]
+![Satellite photo](https://github.com/marberi/100days/blob/master/sat_photo.png)
+
+Workin on the multi-label classification part in lesson 3. The largest part of
+today was spent dealing with technical issues. I tried downloading and
+unzipping the data on a remote server, which turned out to not hae the
+compressiong library install. Finding a workaround took some time. Finally
+I at least got the images in the end.
