@@ -146,3 +146,8 @@ today was spent dealing with technical issues. I tried downloading and
 unzipping the data on a remote server, which turned out to not hae the
 compressiong library install. Finding a workaround took some time. Finally
 I at least got the images in the end.
+
+# Day 21 [2019-02-08]
+Working on tweaking the network accuracy in the (finished) planet competition. 
+Training resnet50 takes a bit of time. Not terrible long, but it gives me
+some time to wait.
