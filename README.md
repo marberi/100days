@@ -151,3 +151,9 @@ I at least got the images in the end.
 Working on tweaking the network accuracy in the (finished) planet competition. 
 Training resnet50 takes a bit of time. Not terrible long, but it gives me
 some time to wait.
+
+# Day 22 [2019-02-09]
+Quite a long days. I played around with training the planet dataset. At the
+end of the day, I returned to look at the whale identification dataset. With
+some improvements my score went from 0.284 to 0.456. Still not terrible good,
+but I gain some experience with this dataset.
