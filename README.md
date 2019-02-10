@@ -161,8 +161,11 @@ but I gain some experience with this dataset.
 
 # Day 23 [2019-02-10]
 Continued fastai lesson 3, looking at segmentation of pictures coming from
-dashcams. I also played around with the whales competition. The result when
-aborting a longer run midway was not better. I will continue training this
+dashcams. On the left is the ground truth and the right is the prediction.
+While the number of correct pixels here is about 90% [still running tests],
+there are systematically some problematic areas. For example the lamp post.  I
+also played around with the whales competition. The result when aborting a
+longer run midway was not better. I will continue training this
 model for a while longer.
 
 ![Dashcam segmentation](https://github.com/marberi/100days/blob/master/dashcam.png)
