@@ -157,3 +157,12 @@ Quite a long days. I played around with training the planet dataset. At the
 end of the day, I returned to look at the whale identification dataset. With
 some improvements my score went from 0.284 to 0.456. Still not terrible good,
 but I gain some experience with this dataset.
+
+
+# Day 23 [2019-02-10]
+Continued fastai lesson 3, looking at segmentation of pictures coming from
+dashcams. I also played around with the whales competition. The result when
+aborting a longer run midway was not better. I will continue training this
+model for a while longer.
+
+![Dashcam segmentation](https://github.com/marberi/100days/blob/master/dashcam.png)
