@@ -169,3 +169,15 @@ longer run midway was not better. I will continue training this
 model for a while longer.
 
 ![Dashcam segmentation](https://github.com/marberi/100days/blob/master/dashcam.png)
+
+# Day 24 [2019-02-11]
+Looking at the text classification with IMDB. For the previous versons of
+fastai I skipped NLP, since my work never includes text. Running this task, I
+was suprised on how long the training actually took. Instead of using google
+colab, I ended up using the local Titan-V. Then it could run in reasonable
+time. Below is a test of the classifier separating into positive and
+negative reviews. Here the accuracy is 84.2% compared to 94.4% obtained
+in the lesson notebooks. This both come from neither unfreezing the 
+layers when training the encoder nor classifier.
+
+![IMDB](https://github.com/marberi/100days/blob/master/imdb.png)
