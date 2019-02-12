@@ -181,3 +181,13 @@ in the lesson notebooks. This both come from neither unfreezing the
 layers when training the encoder nor classifier.
 
 ![IMDB](https://github.com/marberi/100days/blob/master/imdb.png)
+
+# Day 25 [2019-02-12]
+Playing around with the prediction of head pose. In some sense, nothing really
+special about this application. One input a set of images and predicted the
+center of the head. As with many of the other applications, the most challenging
+part was inputting the data in a sensible way. Also, as not covered in the 
+example, unfreezing and training all layers lead to a significant decrease
+of the loss function.
+
+![IMDB](https://github.com/marberi/100days/blob/master/imdb.png)
