@@ -190,4 +190,4 @@ part was inputting the data in a sensible way. Also, as not covered in the
 example, unfreezing and training all layers lead to a significant decrease
 of the loss function.
 
-![IMDB](https://github.com/marberi/100days/blob/master/imdb.png)
+![IMDB](https://github.com/marberi/100days/blob/master/head_pose.png)
