@@ -191,3 +191,10 @@ example, unfreezing and training all layers lead to a significant decrease
 of the loss function.
 
 ![IMDB](https://github.com/marberi/100days/blob/master/head_pose.png)
+
+# Day 26 [2019-02-13]
+Worked on the tabular dataset example in lesson 4. The accuracy was ok
+(84%), but not impressive when only wanting to classify into low and 
+high income. In the lesson notebook the achieved 82%. Running more epochs,
+changing layers etc. did not improve the result. A bit disappointing.
+Hopefully they come back with some interesting tweaks.
