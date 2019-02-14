@@ -198,3 +198,9 @@ Worked on the tabular dataset example in lesson 4. The accuracy was ok
 high income. In the lesson notebook the achieved 82%. Running more epochs,
 changing layers etc. did not improve the result. A bit disappointing.
 Hopefully they come back with some interesting tweaks.
+
+# Day 27 [2019-02-14]
+Most of the day I attempted to fit a large (1 million) simulated galaxy
+sample to a neural network. It is unclear if the network is overfitting
+or have not properly converged to a state where my metric makes sense.
+More work is clearly needed.
