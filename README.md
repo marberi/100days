@@ -204,3 +204,17 @@ Most of the day I attempted to fit a large (1 million) simulated galaxy
 sample to a neural network. It is unclear if the network is overfitting
 or have not properly converged to a state where my metric makes sense.
 More work is clearly needed.
+
+# Day 28 [2019-02-15]
+Continuing on the work of fitting to the simulations. One problem was,
+again, having added a softmax layer when using the cross-entropy loss
+from PyTorch. The cross-entropy function in PyTorch includes a softmax
+layer and should *not* be included in your network. Also, when training
+the network, it seems like the usual normalization of input data does
+not work very well. If instead taking the logarithm, then things works
+much better. The distribution of one of the features can be seen in the
+image. I need to play around to optimize this, since real observations
+will have negative measurement coming from statistical fluctuations when
+substracting the sky background.
+
+![log_feature](https://github.com/marberi/100days/blob/master/log_features.png)
