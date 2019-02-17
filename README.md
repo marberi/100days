@@ -218,3 +218,12 @@ will have negative measurement coming from statistical fluctuations when
 substracting the sky background.
 
 ![log_feature](https://github.com/marberi/100days/blob/master/log_features.png)
+
+# Day 29 [2019-02-16]
+Last night I was programming a classifier based on images scraped from
+the web. The model was trained using the fastai library. When exporting the
+network to ONNX, I had problem figuring out which transformations the
+fastai library had been using. Other than this, I was watching the PyTorch
+developer conference videos from last year.
+
+![valentine](https://github.com/marberi/100days/blob/master/valentine_solutions.png)
