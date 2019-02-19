@@ -231,3 +231,10 @@ developer conference videos from last year.
 # Day 30 [2019-02-17]
 Continuing on fastai lesson 4. Today I was working through the collaborative
 filtering example in detail.
+
+# Day 31 [2019-02-18]
+Finished lesson 4 and got midway into lesson 5. At work I was playing
+around with pretraining a neural network using simulations. Finally
+it started to give very good results when testing on simulations. After
+testing on data I discovered that one parameter range was to small. By
+now a new set of simulations are running.
