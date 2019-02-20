@@ -248,3 +248,12 @@ since last attempt half a year ago, it ended up giving sensible when *not*
 pretraining. Quite unexpected. By now the result is around 1.2\% worse than
 a classical method on two important metricts. This is encouraging and gives
 me some hope that additional tweaking will give good results.
+
+# Day 33 [2019-02-20]
+By now some results are comparable with the classical method!  Continued to
+experiment with the distances. The regression problem is implemented as a
+classification. This is both done since we need the probability distribution of
+the distance and because it gave better results. By now there are classes
+without any training samples. This is quite problematic, since these classes
+probably are poorly trained.  First attempts on regularizing the layer did not
+change the results much. A bit weird.
