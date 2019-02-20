@@ -238,3 +238,13 @@ around with pretraining a neural network using simulations. Finally
 it started to give very good results when testing on simulations. After
 testing on data I discovered that one parameter range was to small. By
 now a new set of simulations are running.
+
+
+# Day 32 [2019-02-19]
+Today I worked on determining galaxy distances with neural networks. Previously
+I had problems getting this working, only getting reasonable results when first
+pretraining on simulations. With the current setup, which is completely new
+since last attempt half a year ago, it ended up giving sensible when *not*
+pretraining. Quite unexpected. By now the result is around 1.2\% worse than
+a classical method on two important metricts. This is encouraging and gives
+me some hope that additional tweaking will give good results.
