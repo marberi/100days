@@ -257,3 +257,11 @@ the distance and because it gave better results. By now there are classes
 without any training samples. This is quite problematic, since these classes
 probably are poorly trained.  First attempts on regularizing the layer did not
 change the results much. A bit weird.
+
+# Day 34 [2019-02-21]
+Watched lesson 5. I had not realized the meaning of weight decay and how it
+was implemented. While being an additional term to the loss function, it
+can be implemented in the optimizer. Adam has a "weight_decay" parameters
+which by default is set to zero. The fastai use 0.01 as a safe default, but
+say 0.1 works most times. Looking forward for actually testing this in
+practice.
