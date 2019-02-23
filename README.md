@@ -265,3 +265,11 @@ can be implemented in the optimizer. Adam has a "weight_decay" parameters
 which by default is set to zero. The fastai use 0.01 as a safe default, but
 say 0.1 works most times. Looking forward for actually testing this in
 practice.
+
+# Day 35 [2019-02-22]
+Ended up playing around with MNIST, preparing for the exercise corresponding
+to lesson 5. Instead of working with a complicated model, I implemented 
+logistic regression. This is a neural net, but without a hidden layer. In
+other words, just a single linear transformation. And a softmax layer which
+in PyTorch is implicit. Running this resulted in 92.5\% accuracy. Certainly
+not state-of-the-art, but not bad either.
