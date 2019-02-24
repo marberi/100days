@@ -273,3 +273,10 @@ logistic regression. This is a neural net, but without a hidden layer. In
 other words, just a single linear transformation. And a softmax layer which
 in PyTorch is implicit. Running this resulted in 92.5\% accuracy. Certainly
 not state-of-the-art, but not bad either.
+
+# Day 36 [2019-02-23]
+First I continued experimenting with MNIST. Using one hidden layer with 100
+neurons gave 97.4% accuracy. With a CNN and some tweaks, I managed to pass
+99%. Further, I continued working on the galaxy distances. Applying a CNN
+on a subset of the data where the input data is regularly space in wavelength
+did not make an inprovement. A bit surprising.
