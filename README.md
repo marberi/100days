@@ -280,3 +280,8 @@ neurons gave 97.4% accuracy. With a CNN and some tweaks, I managed to pass
 99%. Further, I continued working on the galaxy distances. Applying a CNN
 on a subset of the data where the input data is regularly space in wavelength
 did not make an inprovement. A bit surprising.
+
+# Day 37 [2019-02-24]
+Watched most of part 3 of PyToch developer conference from last year. The
+biggest surprised was that facebook was having their own open source
+implementation of Alphago zero.
