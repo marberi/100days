@@ -285,3 +285,11 @@ did not make an inprovement. A bit surprising.
 Watched most of part 3 of PyToch developer conference from last year. The
 biggest surprised was that facebook was having their own open source
 implementation of Alphago zero.
+
+# Day 38 [2019-02-25]
+Managed to use most of my day on deep learning related material. In the
+evening I focused on writing up a pipeline for estimating the galaxy
+distances for the full catalogue, using a k-fold method. Not terrible
+difficult, but a bit tedious to write. Later I hope to look into PyTorch
+ignite, or some framework which can simplify this process. Hopefully the
+results looks good enought to be presented tomorrow.
