@@ -293,3 +293,16 @@ distances for the full catalogue, using a k-fold method. Not terrible
 difficult, but a bit tedious to write. Later I hope to look into PyTorch
 ignite, or some framework which can simplify this process. Hopefully the
 results looks good enought to be presented tomorrow.
+
+# Day 39 [2019-02-26]
+![line fitting](https://github.com/marberi/100days/blob/master/line_fitting.png)
+
+The plan was to experiment with PyTorch ignite. As a test, I created some
+noiseless line. A two layer neural network did a very good job on being
+able to reconstruct and interception. That is perhaps not very strange,
+but I have not checked the formulas yet. The errors became large when
+having a small slope. The plot shows the error in the slope (a) as a 2D
+plot, where the x and y-axis are the true a and b values, respectively.
+The errors plotted have a funky logarithmic scaling to look better. Basically,
+higher values are larger values.
+
