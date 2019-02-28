@@ -306,3 +306,6 @@ plot, where the x and y-axis are the true a and b values, respectively.
 The errors plotted have a funky logarithmic scaling to look better. Basically,
 higher values are larger values.
 
+# Day 40 [2019-02-27]
+Playing around trying transfer learning with simulations. Still seems not
+to be working very well.
