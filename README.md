@@ -309,3 +309,10 @@ higher values are larger values.
 # Day 40 [2019-02-27]
 Playing around trying transfer learning with simulations. Still seems not
 to be working very well.
+
+# Day 41 [2019-02-28]
+Read through a paper on "Using convolutional neural networks to predict galaxy
+metallicity from three-color images" (arXiv: 1810.12913) which Jan Carbonell
+sent. It was a quite nice paper. They even had a discussion and test of how the
+network might have indirectly made a prediction through a simpler parameter.
+Quite useful to see an example of a CNN paper in our field.
