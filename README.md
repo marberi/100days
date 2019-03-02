@@ -316,3 +316,8 @@ metallicity from three-color images" (arXiv: 1810.12913) which Jan Carbonell
 sent. It was a quite nice paper. They even had a discussion and test of how the
 network might have indirectly made a prediction through a simpler parameter.
 Quite useful to see an example of a CNN paper in our field.
+
+# Day 42 [2019-03-01]
+Watched most videos in week 1 of "AI for everyone". Quite basic so far, but
+might be more interesting later. It focus more on project success of AI in
+companiest than the very technical aspects.
