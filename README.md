@@ -321,3 +321,14 @@ Quite useful to see an example of a CNN paper in our field.
 Watched most videos in week 1 of "AI for everyone". Quite basic so far, but
 might be more interesting later. It focus more on project success of AI in
 companiest than the very technical aspects.
+
+# Day 43 [2019-03-02]
+Continuing trying to improve the galaxy distance determination. Previously
+using a CNN has not worked very well. While the underlying galaxy spectrum
+is a continuoes variable, my input is the measurement in different optical
+filters. To get around this problem, I experimented with first adding one
+or more linear layer to map back to the spectrum. From there I would be 
+using a Resnet like 1D architecture. The paper (arXiv: 1810.03064) had
+published this, so it was simple to get started. By now the network fuction
+and give some results. Not equally good as the purely linear model, but
+I have not experimented too much yet.
