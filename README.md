@@ -332,3 +332,11 @@ using a Resnet like 1D architecture. The paper (arXiv: 1810.03064) had
 published this, so it was simple to get started. By now the network fuction
 and give some results. Not equally good as the purely linear model, but
 I have not experimented too much yet.
+
+# Day 44 [2019-03-03]
+The first two layers in the network explained yesterday are linear. These
+ended up having a large amount of parameters. By now testing, the network
+seems to be very sensitive to overfitting. At some point the training
+loss improves, while the validation loss and my metric ends up increasing.
+I have therefore played around with regularizing the network. In one case
+it worked better than before, but not as good as the linear network.
