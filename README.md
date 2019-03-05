@@ -340,3 +340,9 @@ seems to be very sensitive to overfitting. At some point the training
 loss improves, while the validation loss and my metric ends up increasing.
 I have therefore played around with regularizing the network. In one case
 it worked better than before, but not as good as the linear network.
+
+# Day 45 [2019-03-04]
+Continued looking at CNN architechtures for my problem, trying various
+tweaks. It never performed as good as a model with only linear layer. In
+the end I started looking into deep kernel learning for possible better
+handling the final output, which should be a probability distribution.
