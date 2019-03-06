@@ -346,3 +346,7 @@ Continued looking at CNN architechtures for my problem, trying various
 tweaks. It never performed as good as a model with only linear layer. In
 the end I started looking into deep kernel learning for possible better
 handling the final output, which should be a probability distribution.
+
+# Day 46 [2019-03-05]
+Watched week 2 videos of AI for all on coursera. Still quite basic. At times
+some nice examples, tho.
