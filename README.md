@@ -350,3 +350,21 @@ handling the final output, which should be a probability distribution.
 # Day 46 [2019-03-05]
 Watched week 2 videos of AI for all on coursera. Still quite basic. At times
 some nice examples, tho.
+
+# Day 47 [2019-03-05]
+Worked through the first tutorial on regression with gpytorch and then one on
+combining deep learning and Gaussian processes. The deep learning tutorial used
+the UCI elevator dataset. Using a simple network with four linear layers, it 
+tried to predict the dependent variable. Instead of just giving back an answer,
+it gives a full probabilty distribution. In the figure below, the left panel
+shows a scatter plot with the label and prediction when combining a deep learning
+model and a Gaussian process. The prediction is simply the mean of the returned
+distribution. Since the scatter looked relatively large, I also tried using a
+standard neural networked trained using the mean squared error loss. This result
+is shown in the right panel. The GP+deep learning loss look as good as the normal
+deep learning result. Note this is not a completely rigorous comparison, since I
+have not properly adjusted the number of epochs. It at least shows that the
+large scatter is probably due to the problem or the network size, not the Gaussian
+processes.
+
+![gaussian process](https://github.com/marberi/100days/blob/master/gp_comparison.png)
