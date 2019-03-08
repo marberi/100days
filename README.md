@@ -374,5 +374,5 @@ Looked into problems with a network we used for regression. Using a creative
 loss function, I got some intitial interesting results last semester. Looking
 at this again, the there is problems with the stability. At times the network
 train and give a good results, while other times the metric is 10 times higher.
-At least I managed to reproduce this result, which a student found. It looks like
+At least I managed to reproduce this issue, which a student found. It looks like
 the network is overfitting. Not the question is how to fix this.
