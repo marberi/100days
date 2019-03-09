@@ -376,3 +376,10 @@ at this again, the there is problems with the stability. At times the network
 train and give a good results, while other times the metric is 10 times higher.
 At least I managed to reproduce this issue, which a student found. It looks like
 the network is overfitting. Not the question is how to fix this.
+
+# Day 49 [2019-03-07]
+Figured out a good solution. Adding an additional constraints on the returned
+results made the network stable and giving quite good results. Answering how 
+good will be the next step. I also looked more into the deep kernel learning.
+The next step is construct my own example and apply a network to understand 
+better how it works. So far I managed to generate some simple simulations.
