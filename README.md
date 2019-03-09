@@ -383,3 +383,16 @@ results made the network stable and giving quite good results. Answering how
 good will be the next step. I also looked more into the deep kernel learning.
 The next step is construct my own example and apply a network to understand 
 better how it works. So far I managed to generate some simple simulations.
+
+# Day 50 [2019-03-08]
+The first test today is constructing a network which can measure the parameters
+of a parabola. This turned out to be extremely simple. Just creating a small
+linear network, it trained very quickly to find the correct result. Below is
+one example of the input and the resulting fit. The data had a SNR of 10 and
+the loss fuction was just the MSE loss of the recovered parameters. This is a
+good example of not needing to be too advanced to get results.
+
+
+![parabola fit](https://github.com/marberi/100days/blob/master/parabola_fit.png)
+
+
