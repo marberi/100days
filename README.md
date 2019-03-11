@@ -392,7 +392,12 @@ one example of the input and the resulting fit. The data had a SNR of 10 and
 the loss fuction was just the MSE loss of the recovered parameters. This is a
 good example of not needing to be too advanced to get results.
 
-
 ![parabola fit](https://github.com/marberi/100days/blob/master/parabola_fit.png)
 
 
+# Day 51 [2019-03-09]
+Finished the AI for everyone course. Quite some unexpected hours of watching
+today. It is a recommended course, especially if starting out with AI. For a
+technical person, it would not replace any of the more advanced courses where
+you learn how to code. It puts AI in a larger perspective and give ideas on
+how to use AI within a company and the benefit for society.
