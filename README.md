@@ -394,10 +394,23 @@ good example of not needing to be too advanced to get results.
 
 ![parabola fit](https://github.com/marberi/100days/blob/master/parabola_fit.png)
 
-
 # Day 51 [2019-03-09]
 Finished the AI for everyone course. Quite some unexpected hours of watching
 today. It is a recommended course, especially if starting out with AI. For a
 technical person, it would not replace any of the more advanced courses where
 you learn how to code. It puts AI in a larger perspective and give ideas on
 how to use AI within a company and the benefit for society.
+
+# Day 52 [2019-03-10]
+One topic which I previously have been looking at is pretraining with
+simulations. Since the training set is small, I plan to pretrain on simulations
+before tweaking the network with real data. Quite some time ago this seemed
+to work well. However, recently this was giving worse results than not
+pretraining at all. These latest simulations was quite large, about one
+million galaxies and based on galaxy evolution models. After not working, I
+tried varying parameters like the distribution of galaxy ages, star formation
+and metallicities. No success. What actually made a difference was adding some
+noise to the galaxies. Pretraining with moderate amount of noise made sure
+the solution was not overfitting. And now the result is better after pretraining
+on simulations. It seems a bit sensitive to not pretraining for too long. Anyway,
+at least one step forward.
