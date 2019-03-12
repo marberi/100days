@@ -414,3 +414,9 @@ noise to the galaxies. Pretraining with moderate amount of noise made sure
 the solution was not overfitting. And now the result is better after pretraining
 on simulations. It seems a bit sensitive to not pretraining for too long. Anyway,
 at least one step forward.
+
+# Day 53 [2019-03-11]
+Thought the problem with flux estimation was already solved. Apparently there is
+still a remainding bias. Tried rewriting the code in the process of looking into
+this. No luck so far.
+One topic which I previously have been looking at is pretraining with
