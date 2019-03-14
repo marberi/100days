@@ -351,7 +351,7 @@ handling the final output, which should be a probability distribution.
 Watched week 2 videos of AI for all on coursera. Still quite basic. At times
 some nice examples, tho.
 
-# Day 47 [2019-03-05]
+# Day 47 [2019-03-06]
 Worked through the first tutorial on regression with gpytorch and then one on
 combining deep learning and Gaussian processes. The deep learning tutorial used
 the UCI elevator dataset. Using a simple network with four linear layers, it 
@@ -369,7 +369,7 @@ processes.
 
 ![gaussian process](https://github.com/marberi/100days/blob/master/gp_comparison.png)
 
-# Day 48 [2019-03-06]
+# Day 48 [2019-03-07]
 Looked into problems with a network we used for regression. Using a creative
 loss function, I got some intitial interesting results last semester. Looking
 at this again, the there is problems with the stability. At times the network
@@ -377,14 +377,14 @@ train and give a good results, while other times the metric is 10 times higher.
 At least I managed to reproduce this issue, which a student found. It looks like
 the network is overfitting. Not the question is how to fix this.
 
-# Day 49 [2019-03-07]
+# Day 49 [2019-03-08]
 Figured out a good solution. Adding an additional constraints on the returned
 results made the network stable and giving quite good results. Answering how 
 good will be the next step. I also looked more into the deep kernel learning.
 The next step is construct my own example and apply a network to understand 
 better how it works. So far I managed to generate some simple simulations.
 
-# Day 50 [2019-03-08]
+# Day 50 [2019-03-09]
 The first test today is constructing a network which can measure the parameters
 of a parabola. This turned out to be extremely simple. Just creating a small
 linear network, it trained very quickly to find the correct result. Below is
@@ -394,14 +394,14 @@ good example of not needing to be too advanced to get results.
 
 ![parabola fit](https://github.com/marberi/100days/blob/master/parabola_fit.png)
 
-# Day 51 [2019-03-09]
+# Day 51 [2019-03-10]
 Finished the AI for everyone course. Quite some unexpected hours of watching
 today. It is a recommended course, especially if starting out with AI. For a
 technical person, it would not replace any of the more advanced courses where
 you learn how to code. It puts AI in a larger perspective and give ideas on
 how to use AI within a company and the benefit for society.
 
-# Day 52 [2019-03-10]
+# Day 52 [2019-03-11]
 One topic which I previously have been looking at is pretraining with
 simulations. Since the training set is small, I plan to pretrain on simulations
 before tweaking the network with real data. Quite some time ago this seemed
@@ -415,8 +415,20 @@ the solution was not overfitting. And now the result is better after pretraining
 on simulations. It seems a bit sensitive to not pretraining for too long. Anyway,
 at least one step forward.
 
-# Day 53 [2019-03-11]
+# Day 53 [2019-03-12]
 Thought the problem with flux estimation was already solved. Apparently there is
 still a remainding bias. Tried rewriting the code in the process of looking into
-this. No luck so far.
-One topic which I previously have been looking at is pretraining with
+this. No luck so far. At least I ended up with a rewritten and better code.
+
+# Day 53 [2019-03-13]
+Continued a bit looking at the flux estimation problem. From one constribution
+to the loss, then I expected an unbiased estimate. However, it is not quite
+clear what happens when combining multiple loss terms together. At night I
+watched the following videos
+
+![Geoffrey Hinton: The Foundations of Deep Learning](https://www.youtube.com/watch?v=zl99IZvW7rE) and 
+![Yoshua Bengio: The Rise of Artificial Intelligence through Deep Learning](https://www.youtube.com/watch?v=uawLjkSI7Mo)
+
+The first one was particulary nice. It included a discussion on the number of
+training samples compared to the number of parameters. Also it mentioned how
+a neural network can give better predictions than its labels.
