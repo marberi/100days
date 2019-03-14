@@ -426,8 +426,8 @@ to the loss, then I expected an unbiased estimate. However, it is not quite
 clear what happens when combining multiple loss terms together. At night I
 watched the following videos
 
-![Geoffrey Hinton: The Foundations of Deep Learning](https://www.youtube.com/watch?v=zl99IZvW7rE) and 
-![Yoshua Bengio: The Rise of Artificial Intelligence through Deep Learning](https://www.youtube.com/watch?v=uawLjkSI7Mo)
+[Geoffrey Hinton: The Foundations of Deep Learning](https://www.youtube.com/watch?v=zl99IZvW7rE) and 
+[Yoshua Bengio: The Rise of Artificial Intelligence through Deep Learning](https://www.youtube.com/watch?v=uawLjkSI7Mo)
 
 The first one was particulary nice. It included a discussion on the number of
 training samples compared to the number of parameters. Also it mentioned how
