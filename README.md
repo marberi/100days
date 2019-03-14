@@ -420,7 +420,7 @@ Thought the problem with flux estimation was already solved. Apparently there is
 still a remainding bias. Tried rewriting the code in the process of looking into
 this. No luck so far. At least I ended up with a rewritten and better code.
 
-# Day 53 [2019-03-13]
+# Day 54 [2019-03-13]
 Continued a bit looking at the flux estimation problem. From one constribution
 to the loss, then I expected an unbiased estimate. However, it is not quite
 clear what happens when combining multiple loss terms together. At night I
