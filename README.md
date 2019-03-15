@@ -432,3 +432,8 @@ watched the following videos
 The first one was particulary nice. It included a discussion on the number of
 training samples compared to the number of parameters. Also it mentioned how
 a neural network can give better predictions than its labels.
+
+# Day 55 [2019-03-14]
+Resumed working on the Bayesian prediction, trying to use Pyro instead of
+Gpytorch. The first step is looking at some of the examples, since I did
+not use this package before.
