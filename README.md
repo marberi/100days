@@ -437,3 +437,17 @@ a neural network can give better predictions than its labels.
 Resumed working on the Bayesian prediction, trying to use Pyro instead of
 Gpytorch. The first step is looking at some of the examples, since I did
 not use this package before.
+
+# Day 56 [2019-03-15]
+Quite interesting day. Before looking at the Bayesian prediction, I focused on
+auto-encoders. This might be important since only a small subset of our data
+is labeled. I was running this on simulation, testing how well it would denoise
+my data. Often the error decreased to 30\% of the original error. This is quite
+interesting and hopefully the encoded state is better for making a prediction.
+Below is a correlation matrix of the residual, for the 46 different input 
+measurements. The first banded structure below 40 might come from emission
+lines. Above could come from the last entries corresponding to broader optical
+filters, which often physically overlap the first 40.
+
+![correlation matrix](https://github.com/marberi/100days/blob/master/correlation_matrix.pdf)
+correlation_matrix.pdf
