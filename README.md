@@ -449,5 +449,4 @@ measurements. The first banded structure below 40 might come from emission
 lines. Above could come from the last entries corresponding to broader optical
 filters, which often physically overlap the first 40.
 
-![correlation matrix](https://github.com/marberi/100days/blob/master/correlation_matrix.pdf)
-correlation_matrix.pdf
+![correlation matrix](https://github.com/marberi/100days/blob/master/correlation_matrix.png)
