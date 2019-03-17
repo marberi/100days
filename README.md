@@ -450,3 +450,8 @@ lines. Above could come from the last entries corresponding to broader optical
 filters, which often physically overlap the first 40.
 
 ![correlation matrix](https://github.com/marberi/100days/blob/master/correlation_matrix.png)
+
+# Day 57 [2019-03-16]
+Attempting to apply the encoder and the determined the distance worked worse
+on data than just determining the distance directly. Trying to tweak the hyper-parameters
+did not fully work. I will continue with this tomorrow.
