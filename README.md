@@ -455,3 +455,8 @@ filters, which often physically overlap the first 40.
 Attempting to apply the encoder and the determined the distance worked worse
 on data than just determining the distance directly. Trying to tweak the hyper-parameters
 did not fully work. I will continue with this tomorrow.
+
+# Day 58 [2019-03-17]
+Still not working when trying to run the unsupervised method on a larger dataset. No luck
+so far. At least a good experience in the difference between theory and practice. Work will
+continue tomorrow.
