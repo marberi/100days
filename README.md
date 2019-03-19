@@ -460,3 +460,11 @@ did not fully work. I will continue with this tomorrow.
 Still not working when trying to run the unsupervised method on a larger dataset. No luck
 so far. At least a good experience in the difference between theory and practice. Work will
 continue tomorrow.
+
+# Day 59 [2019-03-18]
+Managed to get a very good improvement by combining the supervised network with an
+unsupervised part. For the unsupervised part, I use an autoencoder. Part of getting
+the good result required feeding the supervised part the encoded state from the
+autoencoder, in addition to the original input. In my particular application this
+might make sense, since the encoded features might not capture all of the features
+which I care about.
