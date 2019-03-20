@@ -468,3 +468,8 @@ the good result required feeding the supervised part the encoded state from the
 autoencoder, in addition to the original input. In my particular application this
 might make sense, since the encoded features might not capture all of the features
 which I care about.
+
+# Day 60 [2019-03-19]
+Read through: [Densenet paper](https://arxiv.org/pdf/1608.06993.pdf). Their results
+seems significantly better than Resnet, especially when considering the number of
+parameter.
