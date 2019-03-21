@@ -473,3 +473,8 @@ which I care about.
 Read through: [Densenet paper](https://arxiv.org/pdf/1608.06993.pdf). Their results
 seems significantly better than Resnet, especially when considering the number of
 parameter.
+
+# Day 61 [2019-03-20]
+Investigating the difference between performance between a single or dual root GPU
+system. Yes, this is actually a practical question, not just for wanting to know.
+Someone has experience with this?
