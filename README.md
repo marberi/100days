@@ -478,3 +478,6 @@ parameter.
 Investigating the difference between performance between a single or dual root GPU
 system. Yes, this is actually a practical question, not just for wanting to know.
 Someone has experience with this?
+
+# Day 62 [2019-03-21]
+Watching videos on the social implications of AI.
