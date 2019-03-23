@@ -491,3 +491,13 @@ was among the more interesting:
 Also, google has a [TensorFlow research cloud](https://www.tensorflow.org/tfrc)
 with 1000 TPUs open for researchers. Not quite clear how difficult it is to
 get accepted and what a typical allocation is.
+
+# Day 64 [2019-03-23]
+Experimenting with PyTorch ignite. One of the problems with PyTorch is the code
+often ends up getting verbose. Knowing how to write a training loop is good and
+the flexibility of PyTorch is excellent. However, it can be a bit tedious to 
+write. PyTorch ignite is a package which seems to greatly reduce the amount of
+code needed without completely loosing the control of the details. Below is a 
+start of applying this to MNIST.
+
+![PyTorch ignite](https://github.com/marberi/100days/blob/master/pytorch_ignite.png)
