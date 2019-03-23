@@ -481,3 +481,13 @@ Someone has experience with this?
 
 # Day 62 [2019-03-21]
 Watching videos on the social implications of AI.
+
+# Day 63 [2019-03-22]
+Looking into new developements on TPUs and tensorflow. The following videos
+was among the more interesting:
+[TPUs] (https://www.youtube.com/watch?v=zEOtG-ChmZE)
+[Tensorflow 2.0] (https://www.youtube.com/watch?v=k5c-vg4rjBw)
+
+Also, google has a [TensorFlow research cloud] (https://www.tensorflow.org/tfrc)
+with 1000 TPUs open for researchers. Not quite clear how difficult it is to
+get accepted and what a typical allocation is.
