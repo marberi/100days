@@ -501,3 +501,6 @@ code needed without completely loosing the control of the details. Below is a
 start of applying this to MNIST.
 
 ![PyTorch ignite](https://github.com/marberi/100days/blob/master/pytorch_ignite.png)
+
+# Day 65 [2019-03-24]
+Watched lession 6 of fast.ai (first hour).
