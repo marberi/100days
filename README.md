@@ -506,10 +506,12 @@ start of applying this to MNIST.
 Watched lession 6 of fast.ai (first hour).
 
 # Day 66 [2019-03-25]
-Read through a few recent papers on the flight. I spent most time on
-1903.08772. It gave the impression the authors was previously interested in
-expert systems. Reading directly new articles from arxiv feels different than
-papers you know are classic.
+This was my first day on hollidays. For security and convenience, I decided on
+travel without laptop. During these days I mostly focused on reading papers from
+Arxiv. Read through a few recent papers on the flight. I spent most time on
+[paper](https://arxiv.org/abs/1903.08772). It gave the impression the authors
+was previously interested in expert systems. Reading directly new articles from
+arxiv feels different than papers you know are classic.
 
 
 # Day 67 [2019-03-26]
@@ -522,10 +524,10 @@ networks. Possible as a way to justifying publishing in the AI category.
 
 
 # Day 69 [2019-03-28]
-Read first half of 1903.11314 It is a review paper on training neural networks
-in distributed systems. There exists a large variety of
-approaches/implementations. Some might seem like variations of others. Quite
-interesting to learn about the tradeoffs
+Read first half of [paper](https://arxiv.org/abs/1903.11314). It is a review
+paper on training neural networks in distributed systems. There exists a large
+variety of approaches/implementations. Some might seem like variations of
+others. Quite interesting to learn about the tradeoffs
 
 # Day 70 [2019-03-29]
 Read [paper1](https://arxiv.org/abs/1701.00008) and
