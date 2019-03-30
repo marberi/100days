@@ -504,3 +504,32 @@ start of applying this to MNIST.
 
 # Day 65 [2019-03-24]
 Watched lession 6 of fast.ai (first hour).
+
+# Day 66 [2019-03-25]
+Read through a few recent papers on the flight. I spent most time on
+1903.08772. It gave the impression the authors was previously interested in
+expert systems. Reading directly new articles from arxiv feels different than
+papers you know are classic.
+
+
+# Day 67 [2019-03-26]
+Read up on cyclic anneling rate scheduling [Forgot Arxiv number]
+
+# Day 68 [2019-03-27]
+Read through 1903.10559, called "the mode of computing". Not
+terrible exciting. Actually quite boring. And only briefly talking about neural
+networks. Possible as a way to justifying publishing in the AI category.
+
+
+# Day 69 [2019-03-28]
+Read first half of 1903.11314 It is a review paper on training neural networks
+in distributed systems. There exists a large variety of
+approaches/implementations. Some might seem like variations of others. Quite
+interesting to learn about the tradeoffs
+
+# Day 70 [2019-03-29]
+Read [paper1](https://arxiv.org/abs/1701.00008) and
+[paper2](https://arxiv.org/abs/1711.03121) on detection of gravitational waves
+using deep learning. Both of these from the same author was quite good. It
+seems like using a 1D CNN both gives (slightly) better result than a template
+fit, but is also much faster.
