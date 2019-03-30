@@ -535,3 +535,15 @@ Read [paper1](https://arxiv.org/abs/1701.00008) and
 using deep learning. Both of these from the same author was quite good. It
 seems like using a 1D CNN both gives (slightly) better result than a template
 fit, but is also much faster.
+
+# Day 71 [2019-03-30]
+Had a look on applying CNNs to extract features from simulated galaxy images. Below
+is a picture. In the end I spent most of the time converting to a sensible input
+format and understanding the data. Some "features" in the input simulations
+provided by a student made me skeptical that everything is fine. Anyway, this
+is how deep learning projects usually progress. At least I bother to check before
+blindly feed the data into a neural network.
+
+![Simulated galaxy](https://github.com/marberi/100days/blob/master/simulated_galaxy.png)
+
+
