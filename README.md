@@ -546,4 +546,11 @@ blindly feed the data into a neural network.
 
 ![Simulated galaxy](https://github.com/marberi/100days/blob/master/simulated_galaxy.png)
 
+# Day 72 [2019-03-31]
+Finished my first AI abstract and submitted to a workshop in AI and astronomy. Today
+I started looking at drone related material. After starting to look at very detailed
+questions on object detection algorithms, I took a step back and watched some more
+general videos of people trying to program autonomous vehicles and drones.
 
+[video](https://www.youtube.com/watch?v=QbbOxrR0zdA)
+[Drone video](https://www.youtube.com/watch?v=4KiH3Fq3olM)
