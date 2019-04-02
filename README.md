@@ -568,3 +568,16 @@ long. Actually doing this, it actually crashed in the end. At least the file
 is a text file, but it was strange this did not work without problems.
 
 ![First flight](https://github.com/marberi/100days/blob/master/first_flight.png)
+
+# Day 75 [2019-04-2]
+Today I continued working on determining the galaxy distances. Instead of using
+normal regression, the distances is split into bins. This seems to work best and
+is quite common in the literature. For the precision I need, there is about 10
+times more bins than normal. This leads to many of the bins either having a 
+low number of training samples. I therefore read a paper on how to balance the
+classes. For this I invented/implemented a method for determining how many 
+training samples are expected in each bin, since the distribution of galaxies
+should be relatively smooth as a function of distance (redshift). First attempt
+of making this correction did not improve the precision.
+
+![KDE smoothing](https://github.com/marberi/100days/blob/master/kde_smoothing.png)
