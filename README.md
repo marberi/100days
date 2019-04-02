@@ -554,3 +554,17 @@ general videos of people trying to program autonomous vehicles and drones.
 
 [video 1](https://www.youtube.com/watch?v=QbbOxrR0zdA), 
 [Drone video](https://www.youtube.com/watch?v=4KiH3Fq3olM)
+
+# Day 73 [2019-03-32]
+Experimenting with the udacity drone simulator, looking at the notebook George
+posted some hours ago. It installed fine and I could connect with the Python
+API. First I played around with flying the drone around. Remember to press the
+disarm buttons and use space to take off (c for lower). Also playing around
+with controlling it using the Python API. What ended up causing a problem was
+reading back in the telemetry log. It seemed to take forever. When creating
+a subset of the 200 first entries, it took 1 second. For a short flight my
+log has 23837 entries. This should take close to 4 minutes, which is way too
+long. Actually doing this, it actually crashed in the end. At least the file
+is a text file, but it was strange this did not work without problems.
+
+![First flight](https://github.com/marberi/100days/blob/master/first_flight.png)
