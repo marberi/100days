@@ -555,7 +555,7 @@ general videos of people trying to program autonomous vehicles and drones.
 [video 1](https://www.youtube.com/watch?v=QbbOxrR0zdA), 
 [Drone video](https://www.youtube.com/watch?v=4KiH3Fq3olM)
 
-# Day 73 [2019-03-32]
+# Day 74 [2019-04-1]
 Experimenting with the udacity drone simulator, looking at the notebook George
 posted some hours ago. It installed fine and I could connect with the Python
 API. First I played around with flying the drone around. Remember to press the
