@@ -591,5 +591,5 @@ significantly for some subset of galaxies. These were the ones already having a
 large uncertainty. Changing how large the whitening is changes which galaxies are
 affected. These results are very interesting since they was not anticipated and
 can make a large difference to the final results. I also tried implementing
-![Mixup paper](https://arxiv.org/abs/1710.09412)
+[Mixup paper](https://arxiv.org/abs/1710.09412)
 but so far it performed worse.
