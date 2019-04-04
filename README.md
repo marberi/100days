@@ -581,3 +581,15 @@ should be relatively smooth as a function of distance (redshift). First attempt
 of making this correction did not improve the precision.
 
 ![KDE smoothing](https://github.com/marberi/100days/blob/master/kde_smoothing.png)
+
+# Day 76 [2019-04-3]
+Quite long and productive way. Experimenting with different ways of augmenting
+the training set. Attempts of weighting the classes did not work. What actually
+worked very well was whitening the labels. Actually, a very large whitening mixing
+up the nearest 20 categories uniformly actually ended up improving the results
+significantly for some subset of galaxies. These were the ones already having a
+large uncertainty. Changing how large the whitening is changes which galaxies are
+affected. These results are very interesting since they was not anticipated and
+can make a large difference to the final results. I also tried implementing
+![Mixup paper](https://arxiv.org/abs/1710.09412)
+but so far it performed worse.
