@@ -609,3 +609,14 @@ the notebook (see day 74). The blobs looks like waiting time where the drone
 tried to keep still in the wind.
 
 ![Drone position](https://github.com/marberi/100days/blob/master/drone_position.png)
+
+# Day 78 [2019-04-5]
+Today I wanted to continue testing if mixup could improve the result. The first
+test only used this loss when training with data, not for the pretraining with
+the simulations. This was done for simplicity. Since the results was not great,
+I wanted to go back and also impement this for the simulations. Doing so, I had
+problems recovering my really nice results. Even if little changed, I could not
+figure out which parameters which had been adjusted. At least finally I got 
+something comparable with what I had before.
+
+![Nasty regression](https://github.com/marberi/100days/blob/master/nasty_regression.png)
