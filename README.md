@@ -593,3 +593,19 @@ affected. These results are very interesting since they was not anticipated and
 can make a large difference to the final results. I also tried implementing
 [Mixup paper](https://arxiv.org/abs/1710.09412)
 but so far it performed worse.
+
+# Day 77 [2019-04-4]
+Continued looking into the drone project. With the simulation I had problems 
+reading back in the logs. You both needed to first create a connection, which
+would require either starting a simulator, having a drone or creating some
+funny hack. This would not be pleasent to work with. Also, the code was not
+actually finishing reading the logs or working. When looking at the code, they
+were implementing a custom csv parser in Python! No wonder it was slow. I
+instead wrote a parser using Pandas
+[Read log code](https://github.com/marberi/100days/blob/master/read_log.py).
+This took 0.4 seconds to get the positions. Below is a plot of an early flight.
+There I was not manually flying, but experimenting with sending commands from
+the notebook (see day 74). The blobs looks like waiting time where the drone
+tried to keep still in the wind.
+
+![Drone position](https://github.com/marberi/100days/blob/master/drone_position.png)
