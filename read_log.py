@@ -1,7 +1,7 @@
 def get_pos(fname):
     """Get the local position of an udacity log file."""
     
-    data = pd.read_table('Logs/TLog.txt', names=['raw_data'])
+    data = pd.read_table(fname, names=['raw_data'])
     data['command'] = data.raw_data.apply(lambda x: x.split(',')[0])
 
     pos = data[data.command == 'MsgID.LOCAL_POSITION']
