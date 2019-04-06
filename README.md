@@ -620,3 +620,14 @@ figure out which parameters which had been adjusted. At least finally I got
 something comparable with what I had before.
 
 ![Nasty regression](https://github.com/marberi/100days/blob/master/nasty_regression.png)
+
+# Day 79 [2019-04-6]
+Continued playing around with the drone simulations. One of the problems I had
+was not being able to properly capture images. The default API does not
+(simpe?) support capture images. However, in the [Reinforcement
+project](https://github.com/udacity/RoboND-DeepLearning-Project) they link to a
+different simulator [Extended
+simulator](https://github.com/udacity/RoboND-DeepLearning-Project) which can
+capture images. For recording, remember to press "h" to start flying. Using
+this I got a series of images like this:
+![Camera capture] (https://github.com/marberi/100days/blob/master/drone_flying.png)
