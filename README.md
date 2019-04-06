@@ -630,4 +630,4 @@ different simulator [Extended
 simulator](https://github.com/udacity/RoboND-DeepLearning-Project) which can
 capture images. For recording, remember to press "h" to start flying. Using
 this I got a series of images like this:
-![Camera capture] (https://github.com/marberi/100days/blob/master/drone_flying.png)
+![Camera capture](https://github.com/marberi/100days/blob/master/drone_flying.png)
