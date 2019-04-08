@@ -641,3 +641,12 @@ which seems like a good alternative. It however require installing the Unreal
 engine from source first 
 [Install unreal doc](https://docs.unrealengine.com/latest/INT/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/1/index.html).
 Today was therefore mostly about technical install details. Hopefully this pays off.
+
+
+# Day 81 [2019-04-8]
+Continued working on the galaxy distances. For the drone project, I finally got Airsim
+working and managed to control it throught the Python API. Actually, Airsim does not 
+support key-bindings! Believe it or not. More experimentation is needed, but it looks
+promising.
+
+![Camera capture](https://github.com/marberi/100days/blob/master/airsim_screen.jpg)
