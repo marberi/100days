@@ -632,3 +632,12 @@ capture images. For recording, remember to press "h" to start flying. Using
 this I got a series of images like this:
 
 ![Camera capture](https://github.com/marberi/100days/blob/master/drone_flying.png)
+
+# Day 80 [2019-04-7]
+The image quality of the udacity drone simulator was quite low. Also, I had issues
+with getting sufficient time resolution. I was therefore looking at
+[AirSim](https://github.com/microsoft/airsim)
+which seems like a good alternative. It however require installing the Unreal
+engine from source first 
+[Install unreal doc](https://docs.unrealengine.com/latest/INT/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/1/index.html).
+Today was therefore mostly about technical install details. Hopefully this pays off.
