@@ -650,3 +650,9 @@ support key-bindings! Believe it or not. More experimentation is needed, but it 
 promising.
 
 ![Camera capture](https://github.com/marberi/100days/blob/master/airsim_screen.jpg)
+
+# Day 82 [2019-04-9]
+Today I was reading papers on deep probabilistic learning, since I was travelling for
+work. Reading ![Extending STAN](https://arxiv.org/pdf/1810.00873.pdf) in detail and
+one about ![Edwards language](https://arxiv.org/pdf/1701.03757.pdf). I still have 
+some problems understanding how to implement this idea in practice with Pyro.
