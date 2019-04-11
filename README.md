@@ -656,3 +656,8 @@ Today I was reading papers on deep probabilistic learning, since I was travellin
 work. Reading ![Extending STAN](https://arxiv.org/pdf/1810.00873.pdf) in detail and
 one about ![Edwards language](https://arxiv.org/pdf/1701.03757.pdf). I still have 
 some problems understanding how to implement this idea in practice with Pyro.
+
+# Day 83 [2019-04-10]
+Spent severl hours preparing a presentation on deep learning for the group in
+gravitational waves. This is a different topic from what I usually work on, but
+was invited to give a talk.
