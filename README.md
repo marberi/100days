@@ -661,3 +661,10 @@ some problems understanding how to implement this idea in practice with Pyro.
 Spent severl hours preparing a presentation on deep learning for the group in
 gravitational waves. This is a different topic from what I usually work on, but
 was invited to give a talk.
+
+# Day 84 [2019-04-11]
+Continued preparing in the morning. Actually gave three differnt presentations
+about neural networks to three different groups. These all had a different focus.
+One was an overview of deep learning, one update on a research project and one
+on what our group is doing. When being home I played a bit around trying to
+install windows, to be able to get access to the unreal marketplace.
