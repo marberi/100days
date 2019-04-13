@@ -679,4 +679,4 @@ managed to link it with the Airsim plugin. When pressing play the drone
 simulator does not work properly, since the environment has an automatic
 tour through the scene. I want to figure out how to turn this off!
 
-![Dungeon](https://github.com/marberi/100days/blob/master/dungeon.jpg)
+![Dungeon](https://github.com/marberi/100days/blob/master/dungeon.png)
