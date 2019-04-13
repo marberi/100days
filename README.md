@@ -668,3 +668,15 @@ about neural networks to three different groups. These all had a different focus
 One was an overview of deep learning, one update on a research project and one
 on what our group is doing. When being home I played a bit around trying to
 install windows, to be able to get access to the unreal marketplace.
+
+# Day 85 [2019-04-12]
+Spent way too many hours on the Airsim simulations. Loading enviroments from
+the epic markedplace under Linux is not supported. I ended up using the windows
+laptop of a flatmate and copying the files back to Linux. Fortunately, some
+enviroments which was labeled as only supporting Windows worked in Linux. Also,
+there was high-resolution enviroments for free under the "learning" tab. I
+managed to link it with the Airsim plugin. When pressing play the drone 
+simulator does not work properly, since the environment has an automatic
+tour through the scene. I want to figure out how to turn this off!
+
+![Dungeon](https://github.com/marberi/100days/blob/master/dungeon.jpg)
