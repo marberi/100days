@@ -679,3 +679,11 @@ managed to link it with the Airsim plugin. Using the previous script, I
 could control the drone flying around! Below is a screenshot before takeoff.
 
 ![Dungeon](https://github.com/marberi/100days/blob/master/dungeon_v2.png)
+
+# Day 86 [2019-04-13]
+Playing a bit around with GANs. I have worked with them before, but wanted
+to use them for some particular application. Today I also met with the drone
+group. Below is a picture of George flying the drone, while Augustin is 
+watchin. At home I unboxed my Tello and started flying around.
+
+![Flying drones](https://github.com/marberi/100days/blob/master/flying_drones.jpg)
