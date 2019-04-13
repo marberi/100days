@@ -675,8 +675,7 @@ the epic markedplace under Linux is not supported. I ended up using the windows
 laptop of a flatmate and copying the files back to Linux. Fortunately, some
 enviroments which was labeled as only supporting Windows worked in Linux. Also,
 there was high-resolution enviroments for free under the "learning" tab. I
-managed to link it with the Airsim plugin. When pressing play the drone 
-simulator does not work properly, since the environment has an automatic
-tour through the scene. I want to figure out how to turn this off!
+managed to link it with the Airsim plugin. Using the previous script, I
+could control the drone flying around! Below is a screenshot before takeoff.
 
-![Dungeon](https://github.com/marberi/100days/blob/master/dungeon.png)
+![Dungeon](https://github.com/marberi/100days/blob/master/dungeon_v2.png)
