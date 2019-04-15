@@ -687,3 +687,6 @@ group. Below is a picture of George flying the drone, while Augustin is
 watchin. At home I unboxed my Tello and started flying around.
 
 ![Flying drones](https://github.com/marberi/100days/blob/master/flying_drones.jpg)
+
+# Day 87 [2019-04-14]
+Watched through ![Self driving cars](https://www.youtube.com/watch?v=Q0nGo2-y0xY).
