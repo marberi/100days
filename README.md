@@ -690,3 +690,11 @@ watchin. At home I unboxed my Tello and started flying around.
 
 # Day 87 [2019-04-14]
 Watched through [Self driving cars](https://www.youtube.com/watch?v=Q0nGo2-y0xY).
+
+# Day 88 [2019-04-15]
+Our infrastructure is down today. Therefore I wanted to make a simple test, trying
+to reconstruct parameters from a simulation. The idea was to test if knowing the
+noise-level would improve the performance. For some reason this ended up not working
+very well. The lines in the plot below, which I did not bother to put a label on,
+should both decrease...
+![Line test](https://github.com/marberi/100days/blob/master/line_test.png)
