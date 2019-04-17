@@ -702,3 +702,24 @@ relative error on reconstructing the slope. At least the network is benefiting f
 adding the noise-level.
 
 ![Line test](https://github.com/marberi/100days/blob/master/line_test_v2.png)
+
+# Day 89 [2019-04-16]
+Today I continued playing around with different techniques using a simple simulation
+of straight lines. One problem which I want to tackle is having multiple observations
+of the same quantity. For example, taking several pictures of the same galaxy with
+the same optical filter. Normally one would combine these measurement in what could
+be considered the statisically most optimal way. If everything was Gaussian and there
+are no outliers. We know there are, so our usage of the data should be more robust
+towards these outliers.
+
+Part of what I currently do is based on autoencoders. In this case, I want to encode
+all the information coming from the repeated observations. Further, the problem is
+the number of observations varies between galaxies and optical bands. We therefore
+have to deal with missing values. The auto-encoder works well without missing values.
+When having missing values encoded as zero, the network does not give sensible results.
+However, if also giving the mask, it starts to give reasonable results again. Below
+is an exampe where only 30% of the measurements are present. 
+
+![Line denoised](https://github.com/marberi/100days/blob/master/line_recon_v3.png)
+
+What remains is to experiment with adding the mask directly to the network.
