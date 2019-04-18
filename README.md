@@ -723,3 +723,10 @@ is an exampe where only 30% of the measurements are present.
 ![Line denoised](https://github.com/marberi/100days/blob/master/line_recon_v3.png)
 
 What remains is to experiment with adding the mask directly to the network.
+
+# Day 90 [2019-04-17]
+Giving the mask as a seperate input might not be optimal. At least that is the
+claim for CNNs. Testing ideas based on
+[Shepard networks](https://papers.nips.cc/paper/5774-shepard-convolutional-neural-networks.pdf).
+After much trying and failing, I have not gotten better results by attempting to
+include masks in this way.
