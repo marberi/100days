@@ -729,4 +729,5 @@ Giving the mask as a seperate input might not be optimal. At least that is the
 claim for CNNs. Testing ideas based on
 [Shepard networks](https://papers.nips.cc/paper/5774-shepard-convolutional-neural-networks.pdf).
 After much trying and failing, I have not gotten better results by attempting to
-include masks in this way.
+include masks in this way. I might choose to just add the mask as a separate
+input, potentially returning to this issue later.
