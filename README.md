@@ -732,7 +732,7 @@ After much trying and failing, I have not gotten better results by attempting to
 include masks in this way. I might choose to just add the mask as a separate
 input, potentially returning to this issue later.
 
-# Day 91 [2019-04-18
+# Day 91 [2019-04-18]
 For applying the masked network, I don't only need an encoder, but also a network
 for making classification/regression. Today I was playing around with the effect
 of missing values when trying to predict the slope of a line. Here is one result
@@ -743,3 +743,13 @@ measurements as the errors increasing with about 83% (sqrt(1/0.3)). The change
 seesm larger. The next step is to add masking to the network.
 
 ![Slope prediction](https://github.com/marberi/100days/blob/master/line_recon_mask.png)
+
+# Day 92 [2019-04-19]
+Quite productive day. Managed to sit around 7 hours, including lunch. I continued
+on some of the work from yesterday. The ordering of the repeated measurements does
+not matter. Using data augmentation one can further reduce the uncertainties. Also,
+this reduced the sensitivity to the ordering. More importantly, I worked on adding
+outliers to the data. With individual measurements, these are supposed to be easier
+to find. So far it looks promising and I will later use more realistic galaxy 
+simulations. At the end I wrote up a page summarizing the results from the last
+days.
