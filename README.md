@@ -739,7 +739,7 @@ of missing values when trying to predict the slope of a line. Here is one result
 with all values and when one where 100% is present. For the other, only 30% of
 the measurements is present. Note that the simulated straight lines use 10 different 
 x-values and 5 different measurements. One could interpret only having 30% of the
-measurements as the errors increasing with about 83% ```sqrt(1/0.3)```. The change
+measurements as the errors increasing with about 83% (sqrt(1/0.3)). The change
 seesm larger. The next step is to add masking to the network.
 
-![Slope prediction](https://github.com/marberi/100days/blob/master/line_recon_mask.png]
+![Slope prediction](https://github.com/marberi/100days/blob/master/line_recon_mask.png)
