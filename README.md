@@ -731,3 +731,15 @@ claim for CNNs. Testing ideas based on
 After much trying and failing, I have not gotten better results by attempting to
 include masks in this way. I might choose to just add the mask as a separate
 input, potentially returning to this issue later.
+
+# Day 91 [2019-04-18
+For applying the masked network, I don't only need an encoder, but also a network
+for making classification/regression. Today I was playing around with the effect
+of missing values when trying to predict the slope of a line. Here is one result
+with all values and when one where 100% is present. For the other, only 30% of
+the measurements is present. Note that the simulated straight lines use 10 different 
+x-values and 5 different measurements. One could interpret only having 30% of the
+measurements as the errors increasing with about 83% ```sqrt(1/0.3)```. The change
+seesm larger. The next step is to add masking to the network.
+
+![Slope prediction](https://github.com/marberi/100days/blob/master/line_recon_mask.png]
