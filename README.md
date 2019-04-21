@@ -753,3 +753,10 @@ outliers to the data. With individual measurements, these are supposed to be eas
 to find. So far it looks promising and I will later use more realistic galaxy 
 simulations. At the end I wrote up a page summarizing the results from the last
 days.
+
+# Day 93 [2019-04-20]
+Playing around with the drone today. Things was progressing and I managed to 
+capture my first picture. Also could control the drone and stream at the same
+time. Towards the end I experimented with streaming videos in the notebook. This
+got a bit too far down the rabbithole of jupyterlab extentensions and widgets
+not properly installing. Well, I hope to continue on this tomorrow.
