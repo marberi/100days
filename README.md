@@ -763,3 +763,12 @@ not properly installing. Well, I hope to continue on this tomorrow.
 
 # Day 94 [2019-04-21]
 Watched through an interview with [Ian Goodfellow](https://www.youtube.com/watch?v=Z6rxFNMGdn0)
+
+# Day 95 [2019-04-22]
+Went back and looked at streaming video from the drone into the notebook. The last try
+was with ipywebrtc, which worked badly. Instead using Bokeh, I could directly see the
+video stream in the notebook. The code can be found 
+[here] (https://github.com/marberi/100days/blob/master/bokeh_stream.ipynb) and below is
+an example output (without animation)
+![Bokeh streaming](https://github.com/marberi/100days/blob/master/bokeh_stream.png)
+
