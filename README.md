@@ -760,3 +760,6 @@ capture my first picture. Also could control the drone and stream at the same
 time. Towards the end I experimented with streaming videos in the notebook. This
 got a bit too far down the rabbithole of jupyterlab extentensions and widgets
 not properly installing. Well, I hope to continue on this tomorrow.
+
+# Day 94 [2019-04-21]
+Watched through an interview with [Ian Goodfellow](https://www.youtube.com/watch?v=Z6rxFNMGdn0)
