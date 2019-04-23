@@ -772,3 +772,12 @@ video stream in the notebook. The code can be found
 an example output (without animation)
 ![Bokeh streaming](https://github.com/marberi/100days/blob/master/bokeh_stream.png)
 
+# Day 96 [2019-04-23]
+Continued at first working on the interface, extending to have two different images
+side by side. Then experimenting with YOLO for object detection. After some technical
+issues, I got a premade code working with my webcamera. Quite nice, but a very low
+framerate of one picture per second. The idea is continuing connecting all the pieces
+together. Later when knowing things work, I can go back and focus on all the details.
+Running the prediction on CPU seems a bit tricky. There are 
+[some interesting work](https://github.com/iitzco/faced)
+focusing on achieving a high frame-rate when running on CPUs.
