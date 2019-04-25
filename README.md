@@ -781,3 +781,9 @@ together. Later when knowing things work, I can go back and focus on all the det
 Running the prediction on CPU seems a bit tricky. There are 
 [some interesting work](https://github.com/iitzco/faced)
 focusing on achieving a high frame-rate when running on CPUs.
+
+# Day 97 [2019-04-24]
+Watched through the video
+[YOLO](https://www.youtube.com/watch?v=4eIBisqx9_g) and
+[Human centric AI](https://www.youtube.com/watch?v=bmjamLZ3v8A). At least got a bit
+of better understanding of how YOLO works.
