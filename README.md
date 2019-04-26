@@ -787,3 +787,6 @@ Watched through the video
 [YOLO](https://www.youtube.com/watch?v=4eIBisqx9_g) and
 [Human centric AI](https://www.youtube.com/watch?v=bmjamLZ3v8A). At least got a bit
 of better understanding of how YOLO works.
+
+# Day 98 [2019-04-25]
+Also kind of slow day watching AI videos. Found [Improved techniques for training GANs](https://arxiv.org/abs/1606.03498#), which seems interesting for what I am doing.
