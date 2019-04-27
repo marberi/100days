@@ -790,3 +790,14 @@ of better understanding of how YOLO works.
 
 # Day 98 [2019-04-25]
 Also kind of slow day watching AI videos. Found [Improved techniques for training GANs](https://arxiv.org/abs/1606.03498#), which seems interesting for what I am doing.
+
+# Day 99 [2019-04-26]
+Continued working on the network for repeated measurements, which I had been
+testing on a straight line. Today I extended this by instead simulating galaxies.
+The idea is to test how well we can reconstruct their distances when there are
+missing entries. I got the first results. Part looks fine, but more tweaking and
+testing is needed. Below is the flux for a model of an elliptical galaxy as a
+function of wavelength. The data I use is projected into different wavelength
+dependent filters.
+
+![Elliptical SED](https://github.com/marberi/100days/blob/master/elliptical_galaxy_sed.png)
