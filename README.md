@@ -801,3 +801,13 @@ function of wavelength. The data I use is projected into different wavelength
 dependent filters.
 
 ![Elliptical SED](https://github.com/marberi/100days/blob/master/elliptical_galaxy_sed.png)
+
+
+# Day 100 [2019-04-27]
+Worked on combining object detection and the streaming from the drone. At the end I
+managed to stream the video from the drone, feed the result to an object detector.
+This information is added as frames in the image and then fed to Bokeh.
+
+![Elliptical SED](https://github.com/marberi/100days/blob/master/drone_detection.png)
+
+The first 100 days is now over!
