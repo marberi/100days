@@ -15,3 +15,9 @@ company. They claim having a interence processor handling 15000 img/sec,
 compared to 2657/sec on a Resnet50 architecture. Also, by accident I found
 [Katakoda](https://www.katacoda.com/), which seems useful.
 
+# Day 102 [2019-05-03]
+At least by now I have a complete set of slides. Basically took the full day.
+This talk covers history, trends in artificial intelligence (AI), hardware,
+software/Infrastructure, details on neural networks, astronomy applications,
+outlook and conclusions. It covers a serious amount of material, so I could
+even have spent more time on reading background material.
