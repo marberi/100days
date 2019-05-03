@@ -21,3 +21,10 @@ This talk covers history, trends in artificial intelligence (AI), hardware,
 software/Infrastructure, details on neural networks, astronomy applications,
 outlook and conclusions. It covers a serious amount of material, so I could
 even have spent more time on reading background material.
+
+# Day 103 [2019-05-04]
+Gave the talk today. It was well received. This night I was looking into how
+to predict the corresponding errors to a prediction. Many of the papers was
+extremely old, like from 20 years ago. It was not clear if these would be a
+good fit for our problem. In the end I found that searching for "neural network
+prediction interval" gave lots of better hits.
