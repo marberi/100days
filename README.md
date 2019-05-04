@@ -28,3 +28,11 @@ to predict the corresponding errors to a prediction. Many of the papers was
 extremely old, like from 20 years ago. It was not clear if these would be a
 good fit for our problem. In the end I found that searching for "neural network
 prediction interval" gave lots of better hits.
+
+# Day 104 [2019-05-05]
+Continued working on the drone. By now the YOLO integration in the notebook
+seems to work better. The picture below is from a live stream. Things are
+progressing in the group. One of the next topics is studying in detail the
+drone executing commands and reading out picures as the same time.
+
+![Drone YOLO](https://github.com/marberi/100days/blob/master/drone_yolo.jpg)
