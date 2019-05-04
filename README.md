@@ -35,4 +35,4 @@ seems to work better. The picture below is from a live stream. Things are
 progressing in the group. One of the next topics is studying in detail the
 drone executing commands and reading out picures as the same time.
 
-![Drone YOLO](https://github.com/marberi/100days/blob/master/drone_yolo.jpg)
+![Drone group](https://github.com/marberi/100days/blob/master/drone_group.jpg)
