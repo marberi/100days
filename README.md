@@ -36,3 +36,23 @@ progressing in the group. One of the next topics is studying in detail the
 drone executing commands and reading out picures as the same time.
 
 ![Drone group](https://github.com/marberi/100days/blob/master/drone_group.png)
+
+# Day 105 [2019-05-06]
+Watch [Bengio interview](https://www.youtube.com/watch?v=azOmzumh0vQ) and some
+other interviews.
+
+# Day 106 [2019-05-07]
+Experimented with the Drone API. One of the problem we experienced on Saturday
+is having to wait for commands to execute. For example, when rotating the drone
+around, we rotated 5 degrees, took one picture and then rotated 5 more. Also,
+the commands often fails with a timeout. At time those commands actually appears
+to be working. Reading more about the API, the commands are either implemented
+using a blocking or non-blocking way of sending a command. For example, rotating
+will by default block. For example
+
+```
+tello.send_command_without_return("cw 10")
+```
+
+rotates 10 degrees clockwise. More commands can be found by reading the API
+source code.
