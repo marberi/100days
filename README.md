@@ -56,3 +56,9 @@ tello.send_command_without_return("cw 10")
 
 rotates 10 degrees clockwise. More commands can be found by reading the API
 source code.
+
+# Day 107 [2019-05-08]
+Continued looking at the error prediction. The 
+[High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach](https://arxiv.org/abs/1802.07167) paper
+looked promising, but also require us to constrain additional quantity output
+from the network. It looks like repeated training will be hard to avoid.
