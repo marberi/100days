@@ -62,3 +62,13 @@ Continued looking at the error prediction. The
 [High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach](https://arxiv.org/abs/1802.07167) paper
 looked promising, but also require us to constrain additional quantity output
 from the network. It looks like repeated training will be hard to avoid.
+
+# Day 108 [2019-05-09]
+Yesterday I had technical problems with charging the laptop and got nothing
+done. When finding out about the issue it was too late to get something
+done.
+
+Today I was looking at some code for unsupervised networks. Basically this
+resume a project from quite a while ago. I previously wrote a prototype and
+a student has been working on this. Using parts of this code I wanted to
+double check some details, since parts are not working as expected.
