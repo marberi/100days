@@ -77,7 +77,13 @@ double check some details, since parts are not working as expected.
 Continued playing around with some estimation using an unsupervised method. On
 one of the first tries I get
 
-![Drone group](https://github.com/marberi/100days/blob/master/flux_bkg.png)
+![Flux and background](https://github.com/marberi/100days/blob/master/flux_bkg.png)
 
 which shows the estimated relative errors for two quantities. These should
 both be centered around one. More work is clearly needed.
+
+# Day 110 [2019-05-11]
+Continued working on the flux estimation. Dealing with unsupervised learning
+and multiple losses are tricky. I start to understand better what is possible
+or not.
+![Only flux](https://github.com/marberi/100days/blob/master/flux_pred.png)
