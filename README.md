@@ -72,3 +72,12 @@ Today I was looking at some code for unsupervised networks. Basically this
 resume a project from quite a while ago. I previously wrote a prototype and
 a student has been working on this. Using parts of this code I wanted to
 double check some details, since parts are not working as expected.
+
+# Day 109 [2019-05-10]
+Continued playing around with some estimation using an unsupervised method. On
+one of the first tries I get
+
+![Drone group](https://github.com/marberi/100days/blob/master/flux_bkg.png)
+
+which shows the estimated relative errors for two quantities. These should
+both be centered around one. More work is clearly needed.
