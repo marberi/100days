@@ -87,3 +87,17 @@ Continued working on the flux estimation. Dealing with unsupervised learning
 and multiple losses are tricky. I start to understand better what is possible
 or not.
 ![Only flux](https://github.com/marberi/100days/blob/master/flux_pred.png)
+
+# Day 111 [2019-05-12]
+First continuing on the flux estimation, then going back to something which
+I looked at a long time ago. How can a network both output a prediction and
+corresponding error? One concern I had was the network potentially preferring
+a large as possible error. However, the width of a Gaussian distribution also
+enters into the normalization. If also including this normalization term in
+the loss, it will balance. Using some simulations of straight lines and a 
+linear network, I find that the outputted errors makes some sense. However,
+the scale is slight off. I need to check if there is some factor missing etc.
+At least is seems quite promising.
+
+![Error prediction](https://github.com/marberi/100days/blob/master/pred_prod.png)
+
