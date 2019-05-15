@@ -101,3 +101,19 @@ At least is seems quite promising.
 
 ![Error prediction](https://github.com/marberi/100days/blob/master/pred_prod.png)
 
+# Day 112 [2019-05-13]
+Was looking through some videos on "Introduction to Practical Deep Learning" on
+coursera. At some time I signed up (no payment), since it was thought be Intel.
+They are not the most central in machine learning, but it would be interesting
+to see what they are upto. The course is based on Neon. Not sure if this makes
+me happy. At the end I watched an interview with
+![Chris Lattner](https://www.youtube.com/watch?v=yCd3CzGSte8&list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&index=3&t=0s)
+
+# Day 113 [2019-05-14]
+At work someone contacted me concerning a problem with a neural network. They
+had simulated gravitational waves and detector background. The idea is to use
+a 1D convolutional network to detect gravitational waves. This approach was
+previously done in ![Huerta](https://arxiv.org/abs/1711.03121). For some reason
+they could not get it working at all. Implementing this in PyTorch gave on the
+test sample a perfect score after 4 epochs! Never seen something like that 
+before.
