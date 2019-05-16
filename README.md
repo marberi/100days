@@ -123,3 +123,11 @@ before.
 Watched some long interviews on
 [Social impact of AI](https://www.youtube.com/watch?v=FYIVX5sFeZY)
 [Ray Kurzweil](https://www.youtube.com/watch?v=9Z06rY3uvGY)
+
+# Day 115 [2019-05-16]
+Attempting to train a network in an unsupervised way. The results are quite
+good, except missing an overall scale of the prediction. This is something
+we actually can live with, since the scale needs to be calibrated anyway.
+However, having this scale running off is not good. Balancing this with a
+second loss without screwing up predictions is tricky. Not success yet, but
+I plan keep trying.
