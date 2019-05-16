@@ -117,3 +117,9 @@ previously done in [Huerta](https://arxiv.org/abs/1711.03121). For some reason
 they could not get it working at all. Implementing this in PyTorch gave on the
 test sample a perfect score after 4 epochs! Never seen something like that 
 before.
+
+
+# Day 114 [2019-05-15]
+Watched some long interviews on
+[Social impact of AI](https://www.youtube.com/watch?v=FYIVX5sFeZY)
+[Ray Kurzweil](https://www.youtube.com/watch?v=9Z06rY3uvGY)
