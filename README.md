@@ -131,3 +131,16 @@ we actually can live with, since the scale needs to be calibrated anyway.
 However, having this scale running off is not good. Balancing this with a
 second loss without screwing up predictions is tricky. Not success yet, but
 I plan keep trying.
+
+# Day 116 [2019-05-17]
+In certain subfield of astronomy, the self organized maps (SOM) is a popular
+unsupervised algorithm. Each object is mapped into a 2D cell. Because of the
+2D structure, it is quite suitable to visualize the final result. One question
+is why not using GPU to speed up this training process? Actually, it turned
+out to be extensive work on this from quite some years back. For example:
+[SOM on GPU](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2012-35.pdf)
+I was reading upon what people did earlier. A bit historical, seeing their setup
+many (7) years back.
+
+# Day 117 [2019-05-18]
+
