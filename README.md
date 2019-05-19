@@ -143,4 +143,20 @@ I was reading upon what people did earlier. A bit historical, seeing their setup
 many (7) years back.
 
 # Day 117 [2019-05-18]
+Experimenting with different public SOM codes. Implementing something from
+scratch is very tempting for educational purposes. However, it would be very
+neat if one package worked out of the box. The
+[Somoclu](https://somoclu.readthedocs.io/en/stable/)
+was quite complete, with multi-processor CPU support. Getting the CUDA support
+working required compiling from sources and properly setting the CUDAHOME
+variable. When finally running on the GPU, it was actually slower than on a
+multi-core CPU. One could even see the GPU not being fully utilized. A bit
+disappointing.
 
+After trying some codes, I found
+[som-pytorch](https://github.com/meder411/som-pytorch)
+which was a small code implementing SOM using PyTorch. Using it was quite
+flaky, with the main code focused on running some test examples. Also, it
+only worked on GPU. I hacked in support for CPU. Basically replacing .cuda()
+calls with .to(device). For one specific benchmark, the runtime decreased from
+0.15 seconds to 0.0027 seconds. This was a speedup of 58.7. Quite impressive.
