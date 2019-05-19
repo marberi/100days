@@ -160,3 +160,14 @@ flaky, with the main code focused on running some test examples. Also, it
 only worked on GPU. I hacked in support for CPU. Basically replacing .cuda()
 calls with .to(device). For one specific benchmark, the runtime decreased from
 0.15 seconds to 0.0027 seconds. This was a speedup of 58.7. Quite impressive.
+
+# Day 118 [2019-05-19]
+Implemented my own SOM version and did some benchmarks. The implementation was
+based on PyTorch tensors. It was a quite useful exercise in how to rapidly
+implement a more custom algorithm for GPUs without handcoding CUDA. Below is
+a benchmark of one training epoch on two different machines:
+
+![SOM benchmark](https://github.com/marberi/100days/blob/master/som_benchmark.png)
+
+Here the CPU version runs on multiple cores. The Titan-V is about 58 times faster
+than using the CPU on the same host.
