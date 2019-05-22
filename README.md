@@ -188,3 +188,13 @@ that can be used to penalize too confident predictions. Previously I found using
 label smoothing improved my result, but I needed to tweak a hyperparameter for
 different parts of the sample. Looking if this can work for all galaxies at the
 same time.
+
+# Day 121 [2019-05-22]
+Working on some ideas of smoothing out the output classes. Below is an example
+of a predicted probability distribution. While the predictions peak at sensible
+values and the width is fine, this distribution should not be so irregular. I
+have one idea of how to improve the situation. The attempt of implementing this
+gave some weird results, having the loss becoming nan. In the end I could track
+this back to a normalization issue. Hopefully I figure out how to solve this
+tomorrow.
+![Smoothing](https://github.com/marberi/100days/blob/master/pz_problem.png)
