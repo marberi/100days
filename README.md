@@ -171,3 +171,20 @@ a benchmark of one training epoch on two different machines:
 
 Here the CPU version runs on multiple cores. The Titan-V is about 58 times faster
 than using the CPU on the same host.
+
+
+# Day 119 [2019-05-20]
+Went back looking at the galaxy distances. This is fundamentally a regression
+problem. It is currently implemented by the network output representing the
+probability at a redshift grid. I attempted to instead outputting the mean and
+width of this distribution. While sort of working, it does not work as good as
+the old solution and takes longer to converge.
+
+# Day 120 [2019-05-21]
+Among other things, read through
+[REGULARIZING NEURAL NETWORKS BY PENALIZING CONFIDENT OUTPUT DISTRIBUTIONS](https://arxiv.org/pdf/1701.06548.pdf)
+which had a very interesting comparison between label smoothing and another term
+that can be used to penalize too confident predictions. Previously I found using
+label smoothing improved my result, but I needed to tweak a hyperparameter for
+different parts of the sample. Looking if this can work for all galaxies at the
+same time.
