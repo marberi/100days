@@ -198,3 +198,9 @@ gave some weird results, having the loss becoming nan. In the end I could track
 this back to a normalization issue. Hopefully I figure out how to solve this
 tomorrow.
 ![Smoothing](https://github.com/marberi/100days/blob/master/pz_problem.png)
+
+# Day 122 [2019-05-23]
+Today I manage to find a way to smooth the labels, using a different smoothing
+value for each galaxy. And without having to specify this value. Quite happy
+about this progress.
+![Label smoothing](https://github.com/marberi/100days/blob/master/sigma68_varying_snr_v2.pdf)
