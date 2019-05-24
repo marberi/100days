@@ -203,4 +203,4 @@ tomorrow.
 Today I manage to find a way to smooth the labels, using a different smoothing
 value for each galaxy. And without having to specify this value. Quite happy
 about this progress.
-![Label smoothing](https://github.com/marberi/100days/blob/master/sigma68_varying_snr_v2.pdf)
+![Label smoothing](https://github.com/marberi/100days/blob/master/sigma68_varying_snr_v2.png)
