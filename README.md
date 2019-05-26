@@ -229,3 +229,14 @@ morning. Below is a happy time, processing the dask dataframes is parallell on
 16 cores. Quite fun.
 
 ![Dask progress](https://github.com/marberi/100days/blob/master/dask_in_progress.png)
+
+
+# Day 125 [2019-05-26]
+Actually tracking down the issue took me two hours. The error first appeared after
+modifying a SQL query used to generate part of the input data. At first, I had
+forgotten an additional WHERE clause, ending up giving me the same measurement
+with three different methods. When fixing this, a weird error started to appear.
+Today I worked on stripping the problem down to a minimal example. It turns out
+this error randomly gets triggered for the same input data. In the end, I filed
+the following [bug report](https://github.com/dask/dask/issues/4845).
+
