@@ -215,3 +215,17 @@ network, I usually combines all redundant measurements into one. However, one
 would expect using the individual measurementes would perform better, since it
 can filter out bad measurements. Doing some tests on a simple simulation, I did
 not find a difference. This simulation might have been way too simple.
+
+# Day 124 [2019-05-25]
+Today I spents about five hours working on transforming the input data to the
+network. This is not trivial, since among other things, I have 12 million input
+measurements and wanted to select the best 5 for each galaxy and optical band.
+Which might not be the correct thing afterall, but I got it working. Much of
+the time was working with Dask, knowing how you can transform you data. Dask
+is an excellent tool, which includes an interface looking much like Pandas. It
+works quite well, with some exceptions. In the end, I stopped after finding a
+weird issue of the code crashing when it shoulds. I will look into this in the
+morning. Below is a happy time, processing the dask dataframes is parallell on
+16 cores. Quite fun.
+
+![Dask progress](https://github.com/marberi/100days/blob/master/dask_in_progress.png)
