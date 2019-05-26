@@ -204,3 +204,14 @@ Today I manage to find a way to smooth the labels, using a different smoothing
 value for each galaxy. And without having to specify this value. Quite happy
 about this progress.
 ![Label smoothing](https://github.com/marberi/100days/blob/master/sigma68_varying_snr_v2.png)
+
+# Day 123 [2019-05-24]
+Experimented with using the individual measurements. Usually, we are making
+repeated observations of the same galaxy in the same wavelength. The measurements
+are then combined in an optimal way, assuming they have a Gaussian noise. In
+addition, there are outlier measurements. These are bad measurments or data
+reduction issuees, which are not affected in the errors. When trainings a 
+network, I usually combines all redundant measurements into one. However, one
+would expect using the individual measurementes would perform better, since it
+can filter out bad measurements. Doing some tests on a simple simulation, I did
+not find a difference. This simulation might have been way too simple.
