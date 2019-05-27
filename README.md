@@ -240,3 +240,31 @@ Today I worked on stripping the problem down to a minimal example. It turns out
 this error randomly gets triggered for the same input data. In the end, I filed
 the following [bug report](https://github.com/dask/dask/issues/4845).
 
+# Day 126 [2019-05-27]
+Today I implemented the changes needed for running the networks using individual
+measurements. This took quite some time. As feared and expected, this did not 
+produce better results on the first try. The results is not terrible, but adding
+this additional information degrades the accuracy of the predictions. By now I
+look into ways to improve upon these results.
+
+To simplify, each galaxy we consider is measured 5 times with each of the 40
+different optical bands. This repetiton is to gain a stronger signal. Attempting
+to give the network 200 inputs, clearly did not work. When inputting the data,
+the ordering of the 5 measurements in each band should not matter. And the number
+possible orderings of 5 numbers is 120. For 40 bands, there are a total 10^83
+combinations. It would be useful to feed these to the network.
+
+Generating random permutations is not as simple as it seems. At least if wanting
+it very fast. Another small contribution adds up when running hundreds of
+epochs with 10000 galaxies in batch sizes of 100. And then you want to train
+multiple folds. It is possible, but this is also one out of many possible
+modifications. 
+
+Below is a benchmark of different ways of generating random permultations. The
+first test generates the permulations with a for-loop and the PyTorch "randperm"
+function. Instead, one could also generate a lookup table of all the 120
+permutations of five numbers (using itertools.permutations). Then one instead draw
+random intergers in [0,190] and find the corresponding permulations with this
+table. It is 44 times as fast.
+
+![Generate permutations](https://github.com/marberi/100days/blob/master/gen_permutations.png)
