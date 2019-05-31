@@ -288,4 +288,4 @@ AGI series from Lex Fridman. Interesting discussion at the end about the problem
 of unemployment as a consequence of AI. Nothing conclusive, but Eric Weinstein
 was sceptical to socialism (read: basic income), which is often the only really
 serious proposal that people have to unemployment.
-![AGI video](https://www.youtube.com/watch?v=2wq9x2QcZN0&t=185s)
+[AGI video](https://www.youtube.com/watch?v=2wq9x2QcZN0&t=185s)
