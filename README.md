@@ -268,3 +268,23 @@ random intergers in [0,190] and find the corresponding permulations with this
 table. It is 44 times as fast.
 
 ![Generate permutations](https://github.com/marberi/100days/blob/master/gen_permutations.png)
+# Day 127 [2019-05-28]
+Struggeled with one of the models having way more parameters than it should. This
+was problematic when attempting to deploy it. Further, focused on making sure the
+model could be deployed on multiple machines, only using one core and staying under
+2GB memory usage. That might seem strange, but will allow us to run a massive amount
+of parallel job. We have infrastructure here which works in that way.
+
+# Day 128 [2019-05-29]
+Experimented with running the pipeline from Dask. This was trickier than expected.
+For some reason, the map_partition functionaly is not working in the expected way.
+Also, I have some issues about controlling the memory usage.
+
+
+# Day 129 [2019-05-30]
+Prepared a presentation on ML in the morning. Also  watched an interview in the
+AGI series from Lex Fridman. Interesting discussion at the end about the problem
+of unemployment as a consequence of AI. Nothing conclusive, but Eric Weinstein
+was sceptical to socialism (read: basic income), which is often the only really
+serious proposal that people have to unemployment.
+![AGI video](https://www.youtube.com/watch?v=2wq9x2QcZN0&t=185s)
