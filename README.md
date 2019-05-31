@@ -282,7 +282,8 @@ Also, I have some issues about controlling the memory usage.
 
 
 # Day 129 [2019-05-30]
-Prepared a presentation on ML in the morning. Also  watched an interview in the
+Prepared a presentation on ML in the morning. We had visiors from a biology group,
+which was among other things, interested in using ML. Also watched an interview in the
 AGI series from Lex Fridman. Interesting discussion at the end about the problem
 of unemployment as a consequence of AI. Nothing conclusive, but Eric Weinstein
 was sceptical to socialism (read: basic income), which is often the only really
