@@ -289,3 +289,18 @@ of unemployment as a consequence of AI. Nothing conclusive, but Eric Weinstein
 was sceptical to socialism (read: basic income), which is often the only really
 serious proposal that people have to unemployment.
 [AGI video](https://www.youtube.com/watch?v=2wq9x2QcZN0&t=185s)
+
+# Day 130 [2019-05-31]
+More annoyance with Dask. Spent several hours trying out different approached which
+should have worked to run the neural network prediction in parallel. Some of these
+problems looks like actual bugs in Dask itself.  
+
+# Day 131 [2019-06-01]
+Prepared the AI Saturday presentation. At home I continued investigating the Dask
+problem. It seems the easiest if not bothering to collect the result together at
+the end, but let each subprosess write to a different file. Kind of cheating.
+
+# Day 132 [2019-06-02]
+Changed the wrapper for running a neural network over lots of images to be able
+to use a different architecture. This was surpisingly time consumings. Also fails
+for some images, with an error which should not be there.
