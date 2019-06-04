@@ -304,3 +304,19 @@ the end, but let each subprosess write to a different file. Kind of cheating.
 Changed the wrapper for running a neural network over lots of images to be able
 to use a different architecture. This was surpisingly time consumings. Also fails
 for some images, with an error which should not be there.
+
+# Day 133 [2019-06-03]
+Read through [Multi-task loss](https://arxiv.org/abs/1705.07115) and partly another
+paper on the plane. It was quite interesting, proposing a method for being able to
+combine multiple losses. Originally we looked at this paper, because we needed to
+estimate errors of our predictions.
+
+# Day 134 [2019-06-04]
+Throughout the day, I did some debugging for the bug I reported on day 125. It is
+kind of tricky, because there are multiple threads involved. In the end I produced
+a fix, which might or might not be accepted. 
+
+Continuing working on the network using individual exposures, I figured out how
+to actually do the indexing. What I needed was "torch.gather". Kind of hard without
+this functionality. By now I am running over simulations to see if this improves
+the results.
