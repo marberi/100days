@@ -339,5 +339,11 @@ also finding the appropriate weights for the different repeated measurements.
 ![Reconstruction error](https://github.com/marberi/100days/blob/master/new_line_recon.png)
 
 # Day 138 [2019-06-08]
+Worked a few hours on applying the code to read data and writing up the results. With
+the observations, unlike simulations, one does not have the ground truth. One result is
+looking at how the weights of different repeated measuments change. In the below plot,
+the blue line shows the dispersion if basing the statistical error. Another line is
+based on what an autoencoder predicts. The autoencoder has larger variations in how
+much the weighting should vary, which is what one would expect.
 
-![Chi2 in reconstruction](https://github.com/marberi/100days/blob/master/chi2_recon_demo.png)
+![Chi2 in reconstruction](https://github.com/marberi/100days/blob/master/weight_variations.png)
