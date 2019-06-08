@@ -320,3 +320,20 @@ Continuing working on the network using individual exposures, I figured out how
 to actually do the indexing. What I needed was "torch.gather". Kind of hard without
 this functionality. By now I am running over simulations to see if this improves
 the results.
+
+# Day 135 [2019-06-05]
+Worked on applying the technique to data. For some reason it doen not work properly.
+
+# Day 136 [2019-06-06]
+Continuing testin using the individual fluxes. Since it did not work, I was testing
+many different ideas. For example how to specify which fluxes to mask, data normalization,
+etc.
+
+# Day 137 [2019-06-07]
+Instead of the classical approach of simply adding the new impormation, we shoud be
+a bit more clever. During my travel today I read some papers for inspitation. Doing that
+I tested a new technique for combining multiple repeated observations. Normally one would
+weight these based on the associated errors. Here I was both using an autoencoder and
+also finding the appropriate weights for the different repeated measurements.
+
+![Reconstruction error](https://github.com/marberi/100days/blob/master/new_line_recon.png)
