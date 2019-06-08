@@ -337,3 +337,7 @@ weight these based on the associated errors. Here I was both using an autoencode
 also finding the appropriate weights for the different repeated measurements.
 
 ![Reconstruction error](https://github.com/marberi/100days/blob/master/new_line_recon.png)
+
+# Day 138 [2019-06-08]
+
+![Chi2 in reconstruction](https://github.com/marberi/100days/blob/master/chi2_recon_demo.png)
