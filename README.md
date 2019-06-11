@@ -347,3 +347,21 @@ based on what an autoencoder predicts. The autoencoder has larger variations in 
 much the weighting should vary, which is what one would expect.
 
 ![Chi2 in reconstruction](https://github.com/marberi/100days/blob/master/weight_variations.png)
+
+# Day 139 [2019-06-09]
+Watched through [Tensorflow interview](https://www.youtube.com/watch?v=NERNE4UThHU). The
+largest surprise was how the interviewer considered the open sourcing of Tensorflow to
+be a seminal moment in deep learning. Perhaps I have taken it a bit for granted. I actually
+remembering trying to find a deep learning library after it became popular, but before
+Tensorflow existed. Kind of a pain.
+
+# Day 140 [2019-06-10]
+Continued working on implementing ideas for using the individual exposures, using real
+data. Managed to train and it looked very promising.
+
+# Day 141 [2019-06-11]
+In the morning I thought this changed had improved the perfomance. I was very happy for
+a long time, untill discovering switching up the training and test data loader. Not good.
+It is a lengthy code, so this can happen.. at least I figured it out before presenting
+the results. In the end I managed to trace down another error in the code. So back to
+checking what works tomorrow.
