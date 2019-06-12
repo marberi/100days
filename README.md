@@ -365,3 +365,16 @@ a long time, untill discovering switching up the training and test data loader. 
 It is a lengthy code, so this can happen.. at least I figured it out before presenting
 the results. In the end I managed to trace down another error in the code. So back to
 checking what works tomorrow.
+
+# Day 142 [2019-06-12]
+Quite productive day. After continuing testing this method, I gave up the current 
+approach. While it had some theoretical benefits [not described here], it would require 
+minimizing ~200 parameters per input sample. Such a thing is done when doing a style
+transfer. Things got a bit complicated, but more importantly, degraded the results.
+
+Instead, the information of individual exposures can be included throught data
+augmentation. When training the network, I leave out some measurements at random.
+With this I see a significant improvement in my metric. I still have to check the 
+value of test time augmentation. Exciting times. For example, the outlier rate
+dropped from 17% to 10%. [Unfortunatly I can not post a figure here, since the
+data is private.]
