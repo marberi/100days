@@ -381,7 +381,7 @@ data is private.]
 
 
 # Day 143 [2019-06-13]
-Watched ![Interview](https://www.youtube.com/watch?v=q0mokx-iiws) with head of the
+Watched [Interview](https://www.youtube.com/watch?v=q0mokx-iiws) with head of the
 AI research at Adobe.
 
 # Day 144 [2019-06-14]
@@ -399,4 +399,4 @@ I need to find a method to handle them. This is tricker than simply remove them,
 original data is actually quite noisy.
 
 
-![Test time augmentation](https://github.com/marberi/100days/blob/master/pz_test_augmentation.pdf)
+![Test time augmentation](https://github.com/marberi/100days/blob/master/pz_test_augmentation.png)
