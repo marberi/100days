@@ -378,3 +378,25 @@ With this I see a significant improvement in my metric. I still have to check th
 value of test time augmentation. Exciting times. For example, the outlier rate
 dropped from 17% to 10%. [Unfortunatly I can not post a figure here, since the
 data is private.]
+
+
+# Day 143 [2019-06-13]
+Watched ![Interview](https://www.youtube.com/watch?v=q0mokx-iiws) with head of the
+AI research at Adobe.
+
+# Day 144 [2019-06-14]
+Experimented with test time augmentation. In addition to training time augmentation, I
+was experimenting with systematically removing some of the repeated measurements. In the
+plot below is the estimated distance for a single galaxy. The x-axis is the distance and
+a vertical line gives the true distance. The black line shows the probability assigned
+to finding a galaxy at a given distance, using the standard network. The peak is too far
+from the truth (red line), so this is considered an outlier. 
+
+The set of coloured lines systematically drop some measurement. As one can see, a few of
+the lines then locks onto the correct solution. This is hinting towards these measurements
+actually being outliers. Looking at the data, exactly these examples are quite far off. Now
+I need to find a method to handle them. This is tricker than simply remove them, since the
+original data is actually quite noisy.
+
+
+![Test time augmentation](https://github.com/marberi/100days/blob/master/pz_test_augmentation.pdf)
