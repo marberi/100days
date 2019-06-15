@@ -398,5 +398,6 @@ actually being outliers. Looking at the data, exactly these examples are quite f
 I need to find a method to handle them. This is tricker than simply remove them, since the
 original data is actually quite noisy.
 
-
 ![Test time augmentation](https://github.com/marberi/100days/blob/master/pz_test_augmentation.png)
+
+..
