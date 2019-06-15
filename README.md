@@ -400,4 +400,6 @@ original data is actually quite noisy.
 
 ![Test time augmentation](https://github.com/marberi/100days/blob/master/pz_test_augmentation.png)
 
-..
+# Day 145 [2019-06-15]
+Wrote 1.5 pages in the corresponding paper. This is an early draft, but there is always good
+to have summarized some progress.
