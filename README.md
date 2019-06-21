@@ -430,8 +430,14 @@ broke down**
 Watched [Yann Lecun](https://www.youtube.com/watch?v=U2mhZ9E8Fk8) talk and some other videos.
 Not quite sure which right now.
 
-
 # Day 150 [2019-06-20]
 Was reading up on multi-task learning. The [MTL blog post](http://ruder.io/multi-task/) was
 among the more interesting. My need is slighty different than others, since I want to optimally
 combine training with simulations and data.
+
+# Day 151 [2019-06-21]
+Worked on finding different ways to characterize the quality provided by the network. In addition
+to having good measurements, we are also interested in finding ways to select the 50% galaxies
+with the best performance. I tested using some more classical methods on the network output. 
+Applying the selection gives a better results, but I had hoped for a larger improvement. I started
+reading up on how to use networks themself to rank results.
