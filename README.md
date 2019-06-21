@@ -403,3 +403,35 @@ original data is actually quite noisy.
 # Day 145 [2019-06-15]
 Wrote 1.5 pages in the corresponding paper. This is an early draft, but there is always good
 to have summarized some progress.
+
+# Day 146 [2019-06-16]
+**The posts for the next days is slightly shorter than usual. This mainly comes from the
+laptop screen stopped working. So I could not properly type the logs. Also, there were some
+days where I was only able to watch videos and read papers from my phone.**
+
+Experimented with test time augmentation, randomly leaving out data. This is similar to what
+some people do with images, testing how flips etc. changes the results. Trying many different
+configurations, this did not seem to help
+
+# Day 147 [2019-06-17]
+Watched through [Rosalind Picard](https://www.youtube.com/watch?v=kq0VO1FqE6I) video. I often
+end up watching this video series when the videos come out. A interesting segment is where
+they talk about detecting emotions based on visual signals which are not noticable for humans.
+For example slight redding of the skin color.
+
+# Day 148 [2019-06-18]
+Experimented with using test time augmentation, but in a different way. Instead of using the
+test time augmentation to improve the results, I attempted using the repeated measurements
+with slightly different data to have an idea of the uncertainty in the measurements. This gave
+some very interesting results. **I wanted to continue this at home, but here the computer
+broke down**
+
+# Day 149 [2019-06-19]
+Watched [Yann Lecun](https://www.youtube.com/watch?v=U2mhZ9E8Fk8) talk and some other videos.
+Not quite sure which right now.
+
+
+# Day 150 [2019-06-20]
+Was reading up on multi-task learning. The [MTL blog post](http://ruder.io/multi-task/) was
+among the more interesting. My need is slighty different than others, since I want to optimally
+combine training with simulations and data.
