@@ -440,4 +440,8 @@ Worked on finding different ways to characterize the quality provided by the net
 to having good measurements, we are also interested in finding ways to select the 50% galaxies
 with the best performance. I tested using some more classical methods on the network output. 
 Applying the selection gives a better results, but I had hoped for a larger improvement. I started
-reading up on how to use networks themself to rank results.
+reading up on how to use networks themself to rank results. The 
+[AirBnB ranking](https://arxiv.org/pdf/1810.09591.pdf) paper had some quite interesting remarks,
+like "Out of sheer habit, we started our worst model by initializing all
+weights and embeddings to zero, only to discover that is the worst way to start
+training a neural network".
