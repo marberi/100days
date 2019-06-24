@@ -445,3 +445,7 @@ reading up on how to use networks themself to rank results. The
 like "Out of sheer habit, we started our worst model by initializing all
 weights and embeddings to zero, only to discover that is the worst way to start
 training a neural network".
+
+# Day 152 [2019-06-22]
+Read through [Youtube ranking](https://ai.google/research/pubs/pub45530) and some other resources.
+While not exactly being what I was looking for, it was an interesting read.
