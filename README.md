@@ -449,3 +449,11 @@ training a neural network".
 # Day 152 [2019-06-22]
 Read through [Youtube ranking](https://ai.google/research/pubs/pub45530) and some other resources.
 While not exactly being what I was looking for, it was an interesting read.
+
+# Day 153 [2019-06-23]
+What I am interested in is not a general ranking, but a selectiong based on the probabilities
+associated with the output. Reading the paper
+[Probability calibration](https://arxiv.org/pdf/1706.04599.pdf)
+it has some interesting results on how techniques used for training a neural network can improve
+the accuracy, but destroy the interpretation as probabilities. They discuss a model with a free
+parameter which can be used to solve this issue.
