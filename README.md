@@ -457,3 +457,9 @@ associated with the output. Reading the paper
 it has some interesting results on how techniques used for training a neural network can improve
 the accuracy, but destroy the interpretation as probabilities. They discuss a model with a free
 parameter which can be used to solve this issue.
+
+# Day 154 [2019-06-24]
+Continued working on the same topic, watching a video of their actual paper presentation. Also
+thinking of how to best implement and test this technique. They use the validation set to
+optimize a single parameter, which adjust the logits in the different classes. It is not 
+completely clear this could not be done with the training set.
