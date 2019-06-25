@@ -463,3 +463,9 @@ Continued working on the same topic, watching a video of their actual paper pres
 thinking of how to best implement and test this technique. They use the validation set to
 optimize a single parameter, which adjust the logits in the different classes. It is not 
 completely clear this could not be done with the training set.
+
+# Day 155 [2019-06-25]
+Worked on various topic throughout the day. I implemented the scaling they suggested in the
+Guo et.al. paper. Instead of rigourously using a validation set to determine the correct
+parameter, I simply tried a grid of different temperature values. While it can help to
+adjust the probability distribution, it does not look like magic.
