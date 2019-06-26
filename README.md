@@ -469,3 +469,9 @@ Worked on various topic throughout the day. I implemented the scaling they sugge
 Guo et.al. paper. Instead of rigourously using a validation set to determine the correct
 parameter, I simply tried a grid of different temperature values. While it can help to
 adjust the probability distribution, it does not look like magic.
+
+# Day 156 [2019-06-26]
+Used four hours refactoring the code for being able to experiment with another idea for
+ranking the galaxies. It use a separe network for providing the relative
+ranking. By now it is implemented and I have started to run the first tests. So far
+the ranking is essentially random.
