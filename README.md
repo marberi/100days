@@ -475,3 +475,32 @@ Used four hours refactoring the code for being able to experiment with another i
 ranking the galaxies. It use a separe network for providing the relative
 ranking. By now it is implemented and I have started to run the first tests. So far
 the ranking is essentially random.
+
+# Day 157 [2019-06-27]
+Figured out one bug, then continued running many experiments to optimize the result. It
+works, but the method is less effective than I need.
+
+# Day 157 [2019-06-28]
+Instead of using a rank based on the output, I worked on training a network which was
+trained on an intermediated state of the network. Works in a weak sense. Not that
+useful in the end. Also attended some talks at UPC, which was part of their deep learning
+summer school.
+
+# Day 158 [2019-06-29]
+Watch [AlphaGo video](https://www.youtube.com/watch?v=3N9phq_yZP0) talk on AlphaGO. Quite
+recommended. 
+
+# Day 159 [2019-06-30]
+From the previous talk, I found out there is an AlphaGo documentary. This one was also
+nicely made. While knowing much about the facts from before, hearning the comments from
+the European GO master, developers etc. gives another depth. It was also interesting to
+hear about a specific move, which surprised all experts and which AlphaGo itself considered
+only 1/10000 human players would make.
+[AlphaGo documentary](https://www.youtube.com/watch?v=jGyCsVhtW0M&t=4659s)
+
+# Day 160 [2019-07-01]
+Worked some hours revisiting simpler methods for selecting high quality galaxies based
+on the output probabilities. Experimenting with different thresholds, I managed to get
+something that works better than on the first pass. This shows that even if both methods
+output probability distributions, their exact behaviour on the tail might be different.
+This can possible partly be related to the Guo el.al paper mentioned at day 155.
