@@ -504,3 +504,33 @@ on the output probabilities. Experimenting with different thresholds, I managed 
 something that works better than on the first pass. This shows that even if both methods
 output probability distributions, their exact behaviour on the tail might be different.
 This can possible partly be related to the Guo el.al paper mentioned at day 155.
+
+# Day 161 [2019-07-02]
+Read through a paper on deep learning and creativity. Not really worth positing the 
+link.
+
+# Day 162 [2019-07-03]
+Experimented with training multiple networks. Untill now I did a 80-20 split, training
+5 independent times to get a full catalogue. Doing this repeatedly with different splits
+turns out to give a significant improvement. In my case, I have been training a classifier,
+where the classes represent points on a continuum. When finding the best predictions, I
+simply take the median value.
+
+# Day 163 [2019-07-04]
+Over the night, I trained 500 different networks. Well, actually 1500, since my setup
+consist of 3 different networks. In this way I can use a 5-fold (80-20) split and get
+100 different predictions. The benefit saturate after a while. I was also working on
+stacking the different outputs. That kind of worked, but did not improve the predictions.
+
+# Day 164 [2019-07-05]
+Started a new deep learning project. By now I wanted to use deep learning to calibrate
+the measurements. Used some hours to download and look at the data.
+
+# Day 165 [2019-07-06]
+Continued looking at the data. Specifically, I am interested in multiple measurement
+of the same stars. With this we can infer something about the observation conditions.
+Below is the picture of a graph, where the nodes are individual measurements and links
+indicate the measurements are for the same star. NetworksX is damn slow. I need to 
+explore this more.
+
+![Connections](https://github.com/marberi/100days/blob/master/connections.png)
