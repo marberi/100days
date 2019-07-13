@@ -534,3 +534,58 @@ indicate the measurements are for the same star. NetworksX is damn slow. I need 
 explore this more.
 
 ![Connections](https://github.com/marberi/100days/blob/master/connections.png)
+
+# Day 166 [2019-07-07]
+Experimented with the implication of training on simulations with different variations
+of learning rates. Basically wanted to see how sensitive the current configuration is
+to the exact realization. I have found this earlier to be a bit more sensitive than
+what I would expect.
+
+# Day 167 [2019-07-08]
+
+Watched the first hour of an interview with [Jeff Hawkins](https://www.youtube.com/watch?v=-EVqrDlAqYo)
+on the AGI podcast series. It was two hours, so I continue tomorrow.
+
+# Day 168 [2019-07-09]
+Finished watching the interview. Recommended. It was talking about how the
+neocortex, one of the younger parts of the brain, works. This researcher
+claims that his team had some fundamental breakthrough in understanding how
+it works over the last years. There was talk about how the brain did not
+only create one model of what it observed, but multiple models, which it
+then voted over. He also discussed how the neocortex looked quite similar
+for different areas and how they all seemed to map the information onto a
+referene system.
+
+The book which he has published and interviews are older, so I don't know if 
+they are out of date.
+
+# Day 169 [2019-07-10]
+
+Experiemented with writing a neural network to mimic the calculations done
+in some simulations. I had 136k galaxies simulated using some recipe. This
+way of simulating galaxies is fast, but end up becoming time consuming if
+needing to simulate billions of galaxies. I tested writing a neural network
+for doing this. In the best case, I ended up having a 2% error. This shows
+the idea works, but is not sufficiently good for replacing what we currently
+have. For this we would need 20x better errors. Possible this would end up
+working at a later stage. Getting extremely precise regression with neural
+networks is harder than it sounds.
+
+# Day 170 [2019-07-11]
+Watched some lectures on transfer learning. I watched this for some project I
+wanted to work on.
+
+# Day 171 [2019-07-12]
+Continued reading up on transfer learning. Today I was taking a flight, so
+it was a good time for reading. Among others, I looked at
+[Facial landmark detection through multi-task learning](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepfacealign.pdf)
+and
+[Regularized mult-task learning](http://people.eecs.berkeley.edu/~russell/classes/cs294/f05/papers/evgeniou+pontil-2004.pdf).
+The highlight was the
+[Simgan](https://zpascal.net/cvpr2017/Shrivastava_Learning_From_Simulated_CVPR_2017_paper.pdf)
+paper talking about how to transform simulations to become closer to data. In
+this way they achieved a significant improvement when later training a 
+regressor for eye positions. This is along the direction of what I could need
+for one project. Interestingly enough, I was thinking of this, referring to the
+[CycleGAN paper](https://arxiv.org/abs/1703.10593). It turns out the CycleGAN
+paper is actually older, referring the SimGAN paper.
