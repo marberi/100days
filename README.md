@@ -589,3 +589,38 @@ regressor for eye positions. This is along the direction of what I could need
 for one project. Interestingly enough, I was thinking of this, referring to the
 [CycleGAN paper](https://arxiv.org/abs/1703.10593). It turns out the CycleGAN
 paper is actually older, referring the SimGAN paper.
+
+
+# Day 172 [2019-07-13]
+Looked at [The Long-term of AI & Temporal-Difference Learning](https://www.youtube.com/watch?v=EeMCEQa85tw) talk.
+
+# Day 173 [2019-07-14]
+Experimented with programming a WGAN. It is not my first time programming a
+GAN. The previous times I was using it with pictures, mosly cases where others
+previously have succeeded. By now I was looking at generating straight lines
+with some noise. This is closer to the galaxy fluxes, which I hopefully can
+generate later. A critical step was normalizing the data. For some reason, it
+did not work well with batchnorm.
+
+The simulations are generated using:
+
+```
+N = 10000
+SNR = 35
+
+x = np.linspace(0., 100)
+A = np.random.random(N)
+B = np.random.random(N)
+flux_true = A[:,None]*x[None,:] + B[:,None]
+
+err = flux_true / SNR
+flux = flux_true + err*np.random.normal(size=err.shape)
+flux = torch.Tensor(flux)
+```
+
+and when training a generator and discrimination, I find that:
+
+![Generated amplitude](https://github.com/marberi/100days/blob/master/ampl_recovery_v2.pdf)
+
+While the generator is generating examples which looks drawn from the distribution, the
+distribution looks different, generating less of the extreme examples.
