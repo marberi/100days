@@ -620,7 +620,7 @@ flux = torch.Tensor(flux)
 
 and when training a generator and discrimination, I find that:
 
-![Generated amplitude](https://github.com/marberi/100days/blob/master/ampl_recovery_v2.pdf)
+![Generated amplitude](https://github.com/marberi/100days/blob/master/ampl_recovery_v2.png)
 
 While the generator is generating examples which looks drawn from the distribution, the
 distribution looks different, generating less of the extreme examples.
