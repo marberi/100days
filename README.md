@@ -624,3 +624,19 @@ and when training a generator and discrimination, I find that:
 
 While the generator is generating examples which looks drawn from the distribution, the
 distribution looks different, generating less of the extreme examples.
+
+
+# Day 174 [2019-07-14]
+Watched interview with [Kai-Fu Lee](https://www.youtube.com/watch?v=cQ48rP_Rs4g) on Chinese and American
+artificial intelligence companies. Quite interesting to hear the Chinese perspective. Followed up with
+another interview.
+
+# Day 175 [2019-07-15]
+Continued playing around with the simple GAN simulations. One of the problematic part can be seen in
+the figure below.
+
+![GAN loss](https://github.com/marberi/100days/blob/master/gan_loss_v2.png)
+
+I read through [Which Training Methods for GANs do actually Converge?](https://arxiv.org/pdf/1801.04406.pdf)
+searching for a solution. It seems like I should try implementing the R1 or R2 regularization term in
+eq. 9 or 10.
