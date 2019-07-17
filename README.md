@@ -638,5 +638,5 @@ the figure below.
 ![GAN loss](https://github.com/marberi/100days/blob/master/gan_loss_v2.png)
 
 I read through [Which Training Methods for GANs do actually Converge?](https://arxiv.org/pdf/1801.04406.pdf)
-searching for a solution. It seems like I should try implementing the R1 or R2 regularization term in
-eq. 9 or 10.
+searching for a solution. Implementing a combination (ish) of the R1 or R2 regularization terms (eq. 9 and 10),
+I find a strong regulizing effect. More results follow tomorrow.
