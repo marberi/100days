@@ -641,18 +641,30 @@ I read through [Which Training Methods for GANs do actually Converge?](https://a
 searching for a solution. Implementing a combination (ish) of the R1 or R2 regularization terms (eq. 9 and 10),
 I find a strong regulizing effect. More results follow tomorrow.
 
-
 # Day 176 [2019-07-16]
+Watched through lesson 12 on GANs in the FastAI course from last year. I had seen it before, but it
+was a nice reminder on some of the concepts.
 
 # Day 177 [2019-07-17]
+Continued experimenting with the previous GAN simulations, testing the sensitivity to various hyperparameters.
 
 # Day 178 [2019-07-18]
+Watched on GAN lecture. Not exactly remember which one by now.
 
 # Day 179 [2019-07-19]
+Read through various papers on my flight, focusing on GANs and the adaptation of simultions. One of
+the more readable ones was
+[CycleGAN for sim2real Domain Adaptation](https://web.stanford.edu/~jaustinb/papers/CS236.pdf).
+
 
 # Day 180 [2019-07-20]
+Worked on preparing my poster for an upcoming workshop on artificial intelligence
+in astronomy.
 
 # Day 181 [2019-07-21]
+Rerunning the predictions of the figure and finished up the poster.
+![Deepz poster](https://github.com/marberi/100days/blob/master/deepz_poster.png)
+
 
 # Day 182 [2019-07-22]
 First day of the workshop. A few half-ways interesting talks. There was one
