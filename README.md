@@ -640,3 +640,36 @@ the figure below.
 I read through [Which Training Methods for GANs do actually Converge?](https://arxiv.org/pdf/1801.04406.pdf)
 searching for a solution. Implementing a combination (ish) of the R1 or R2 regularization terms (eq. 9 and 10),
 I find a strong regulizing effect. More results follow tomorrow.
+
+
+# Day 176 [2019-07-16]
+
+# Day 177 [2019-07-17]
+
+# Day 178 [2019-07-18]
+
+# Day 179 [2019-07-19]
+
+# Day 180 [2019-07-20]
+
+# Day 181 [2019-07-21]
+
+# Day 182 [2019-07-22]
+First day of the workshop. A few half-ways interesting talks. There was one
+group from Dubai(?) using drones to look for metorites in the desert. Not very
+interesting from a technical viewpoint, but interesting because of the Drone
+project in last AI6 edition in Barcelona. I hope to catch her later. Also had
+some intersting talks about searching for exoplanets using deep learning in
+direct imaging.
+
+# Day 183 [2019-07-23]
+Second day of the workshop. There was an intersting talk in the morning on
+unsupervised learning. They had been clustering together different objects.
+A neat appliation was the search for multiple lensed quasars. A quasar is a
+galaxy with a supermassive black hole, often appearing more like a star in
+optical images. If being behind a dense dark matter region, the quasar can
+appear multiple times, from gravitational lensing bending space. Only 40
+of those systems was previously known. Through first using unsupervised
+learning, they associated these objects with some classes. This was useful
+to know which objects to follow up. In this way they manage to find multiple
+systems.
