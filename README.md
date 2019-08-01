@@ -685,3 +685,27 @@ of those systems was previously known. Through first using unsupervised
 learning, they associated these objects with some classes. This was useful
 to know which objects to follow up. In this way they manage to find multiple
 systems.
+
+# 24th
+Workshop..
+
+#25th
+Workshop..
+
+#26th
+Workshop..
+
+# 27th 
+Moving the code to GPU
+
+# 28th
+Correcting paper.
+
+# 29th
+Trends in the templates
+
+#
+Some AGI talkes
+
+#
+Working on denoising the images.
