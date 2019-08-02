@@ -686,26 +686,93 @@ learning, they associated these objects with some classes. This was useful
 to know which objects to follow up. In this way they manage to find multiple
 systems.
 
-# 24th
-Workshop..
+# Day 184 [2019-07-24]
+Third day of the workshop. The most interesting talks was about the use of
+artificial intelligence for adaptive optics. Light arriving to earth is
+passing through the atmosphere, being distorded by the atmosphere. Some
+telescopes correct for this using a deformable mirror. Part of the incoming
+light is sent to a wavefront sensor, which use this information to correct
+using movements of the deformable mirror. This has existed with more 
+classical algorithms. The talks was going into detail of how AI algorithms
+could improve these corrections.
 
-#25th
-Workshop..
+Today the student was also presenting the work we have been doing on
+estimating the background in PAUS images.
 
-#26th
-Workshop..
+# Day 185 [2019-07-25]
+Fourth day of the workshop. The biggest surprised was one 3.5h tutorial in the
+afternoon on "information field theory". There was also a talk on the same
+topic. One advantage of some machine learning technique, is not having to
+explicitly model the system. However, injecting information on how you
+expect different parts to work is difficult. They was teaching a framework
+that relied on building up a model using different steps. It was then
+minimizing the coefficients, using backpropagation. Some of the examples
+was quite impressive. I think it would have been interesting to see how
+this method worked together with non-linear mappings implemented with a
+neural network.
 
-# 27th 
-Moving the code to GPU
+# Day 186 [2019-07-26]
+Last day of the workshop. The talk I liked the most was one trying to account
+for baryons in dark matter simulations. In cosmology one method for measuring
+properties of dark matter and dark energy is to correlate the shape of
+galaxies. If being intrinsically random, the correlation is caused by
+weak gravitational lensing, slightly distorting the images. This will allow
+researchers to measure the dark matter at scales corresponding to small
+separations between galaxies.
 
-# 28th
-Correcting paper.
+When making this measurements, one need to compare with theoretical models.
+These are often done running large n-body simulations, containing trillions
+of dark matter particles. However, at small scales, these predictions will
+also be affected by baryons. Like from super novaes. Including these in the
+large volume simulations is currently not possible. They were discussing a
+way of adding this effect to the large simulations afterwards.
 
-# 29th
-Trends in the templates
+# Day 187 [2019-07-27]
+A bit down to earth, I worked on running the inference of our model over the
+full dataset. Previously I was running this on the CPU. This is because half
+of the pipeline is a classical algorithm only running on a CPU and for large
+scale deployment we probably end up using CPUs in the beginning. Mostly to
+satisfy some conservative engineers. Today I was testing running a single
+job on the GPU. This is fine, since we already had the predictions for the
+classical algorithm. It went quite fast, but require transferring 790GB over
+the network.
 
-#
-Some AGI talkes
+# Day 188 [2019-07-28]
+Worked on correcting a paper we are writing on background subtracting using
+CNNs. It took me around 4 hours.
 
-#
-Working on denoising the images.
+# Day 189 [2019-07-29]
+The method for the background prediction used an embedding to encode the 
+information. I experimented with trying to understand the different 
+embeddings. One approach used the embedding as the linear combination of
+some unknown basis images. These was then constrained comparing with some
+average sky-background images in all bands. This resulted in the images
+below. Not quite sure about the interpretation yet.
+
+![Embedding information](https://github.com/marberi/100days/blob/master/embedding_interpretation.png)
+
+# Day 190 [2019-07-30]
+Among other things, I watched [Self-Driving Cars at Aurora, Google, CMU, and DARPA | Artificial Intelligence Podcast]
+(https://www.youtube.com/watch?v=Tj6NOfdfa4o&t=404s)
+
+# Day 191 [2019-07-31]
+Experimented with denoising of images. For another project, using an auto-encoder
+would be a good solution. I have coded some denoising auto-encoders before. To
+remember how this was done, I wrote up some simple simulations looking a bit
+like a 1D version of the data and a linear auto-encoder. The result is shown
+below. This network was slower to train and did not give as good results as
+I expected. In the end, this could have been because I forgot to add some noise
+to the input. Well, I will experiment with this again later.
+
+![Embedding information](https://github.com/marberi/100days/blob/master/embedding_interpretation.png)
+
+# Day 192 [2019-07-23]
+Read through some papers on denoising networks. In particular [Beyond a Gaussian denoiser]
+(https://arxiv.org/pdf/1608.03981.pdf) was interesting. They were describing how training
+to predict the residuals was simpler than attempting to predict the cleaned image. This is
+interesting because it makes little differene to how there training is actually done. Further,
+I looked into image deblurring, including:
+[Deep image deblurring](https://papers.nips.cc/paper/5485-deep-convolutional-neural-network-for-image-deconvolution.pdf).
+
+This give me some ideas for applications, but the problem is as always how it ends up working
+in practice. 
