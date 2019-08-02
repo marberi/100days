@@ -752,8 +752,8 @@ below. Not quite sure about the interpretation yet.
 ![Embedding information](https://github.com/marberi/100days/blob/master/embedding_interpretation.png)
 
 # Day 190 [2019-07-30]
-Among other things, I watched [Self-Driving Cars at Aurora, Google, CMU, and DARPA | Artificial Intelligence Podcast]
-(https://www.youtube.com/watch?v=Tj6NOfdfa4o&t=404s)
+Among other things, I watched 
+[Self-Driving Cars at Aurora, Google, CMU, and DARPA | Artificial Intelligence Podcast](https://www.youtube.com/watch?v=Tj6NOfdfa4o&t=404s)
 
 # Day 191 [2019-07-31]
 Experimented with denoising of images. For another project, using an auto-encoder
@@ -764,7 +764,7 @@ below. This network was slower to train and did not give as good results as
 I expected. In the end, this could have been because I forgot to add some noise
 to the input. Well, I will experiment with this again later.
 
-![Embedding information](https://github.com/marberi/100days/blob/master/embedding_interpretation.png)
+![Denoising](https://github.com/marberi/100days/blob/master/denoise_v3.png)
 
 # Day 192 [2019-07-23]
 Read through some papers on denoising networks. In particular [Beyond a Gaussian denoiser]
@@ -773,6 +773,6 @@ to predict the residuals was simpler than attempting to predict the cleaned imag
 interesting because it makes little differene to how there training is actually done. Further,
 I looked into image deblurring, including:
 [Deep image deblurring](https://papers.nips.cc/paper/5485-deep-convolutional-neural-network-for-image-deconvolution.pdf).
-
-This give me some ideas for applications, but the problem is as always how it ends up working
-in practice. 
+This give me some ideas for applications, but the problem is assumtions which needs to be
+slightly different. One would therefore actually have to try in practice to see how well
+it performs.
