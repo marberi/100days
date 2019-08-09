@@ -766,7 +766,7 @@ to the input. Well, I will experiment with this again later.
 
 ![Denoising](https://github.com/marberi/100days/blob/master/denoise_v3.png)
 
-# Day 192 [2019-07-23]
+# Day 192 [2019-08-01]
 Read through some papers on denoising networks. In particular [Beyond a Gaussian denoiser]
 (https://arxiv.org/pdf/1608.03981.pdf) was interesting. They were describing how training
 to predict the residuals was simpler than attempting to predict the cleaned image. This is
@@ -776,3 +776,55 @@ I looked into image deblurring, including:
 This give me some ideas for applications, but the problem is assumtions which needs to be
 slightly different. One would therefore actually have to try in practice to see how well
 it performs.
+
+
+# Day 193 [2019-08-02]
+Worked on a gravitational wave project. Here the problem was connected with understanding
+if some information from the training set was leaking into the test set. I did some tests
+to see how different they were looking.
+
+# Day 194 [2019-08-03]
+Continued on the topic of denoising, applying this to 2D simulations. Finally ended up getting
+the results below, which was good enough for a quick proof of consept. Now I sent the result
+and asked to start a data transfer of real images.
+
+![Atoms 2D](https://github.com/marberi/100days/blob/master/atoms_2d_v2.png)
+
+# Day 195 [2019-08-04]
+Worked on trying to apply deblurring to astronomical images. The first results looked
+interesting.
+
+# Day 196 [2019-08-05]
+Continued on the deblurring, now focusing on varying the size and the amplitude of the
+different signals. Here we assume that stars intrinsically are point sources, if it was
+not for the blurring of the atmosphere. The network learns to move all flux into a sharp
+peak. Unfortunately, this method need to learn using stars, then apply the method to galaxies,
+which has an intrinsic width. Since the network never have seen a galaxy during the training,
+it tries to put all flux back into a single pixel. This was something I feared and expected
+would happen. At least I have some idea of how to address this problem.
+
+![Deblussing galaxies](https://github.com/marberi/100days/blob/master/deblurring_gal_bias.png)
+
+# Day 197 [2019-08-06]
+Worked on ideas related to [Cyclegan](https://arxiv.org/pdf/1807.00374.pdf) which is a GAN
+transforming between two domains. I thought this could be used to detect some offset between
+two samples of galaxies, which should be the same, except some multiplicative factor multiplied
+with the observations. Turns out, it kind of. But now sufficiently to understand what the
+offset is to percent level. Well, does not destroy the project, but is good to keep in mind.
+I feel like I start to get an intuition of where things might fail. Or, these things fails
+often and I have a paranoid nature.
+
+# Day 198 [2019-08-07]
+Continued with the CycleGAN, following the ACAL paper [for some reason arxiv is down, but
+you will find it]. In addition to using the cycle requirement, it also introduced a loss
+related to solving a task. The transfer between domains should not only look good in the
+cycle, but still be able to map to the correct label. This matches very well with what I
+try to achieve. In the end I experimented with a subset of this network. Loooks promising.
+Also wrote significant amount of text for the paper.
+
+# Day 199 [2019-08-08]
+Worked on extending the setup to include the two transformations and the two descriminators.
+I played around training the network, varying losses, training for longer and so on. While
+the discribution was shifting to look more realistic, the transformation from simulation
+to data did not look fully believable. However, our data is very noisy, so things are
+not conclusive.
