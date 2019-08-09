@@ -803,7 +803,7 @@ which has an intrinsic width. Since the network never have seen a galaxy during 
 it tries to put all flux back into a single pixel. This was something I feared and expected
 would happen. At least I have some idea of how to address this problem.
 
-![Deblussing galaxies](https://github.com/marberi/100days/blob/master/deblurring_gal_bias.png)
+![Deblurring galaxies](https://github.com/marberi/100days/blob/master/deblurring_gal_bias.png)
 
 # Day 197 [2019-08-06]
 Worked on ideas related to [Cyclegan](https://arxiv.org/pdf/1807.00374.pdf) which is a GAN
