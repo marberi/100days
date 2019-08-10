@@ -828,3 +828,13 @@ I played around training the network, varying losses, training for longer and so
 the discribution was shifting to look more realistic, the transformation from simulation
 to data did not look fully believable. However, our data is very noisy, so things are
 not conclusive.
+
+# Day 200 [2019-08-09]
+Watched some problems about training GANs. The first was 
+[GANs in the wild](https://www.youtube.com/watch?v=Qc1F3-Rblbw), which was giving some
+different tips on how to train the GANs. This included using the labels under points
+12. Among other videos, I found one [talk](https://www.youtube.com/watch?v=vDW8qvsBtmQ)
+which was for the SimGAN paper. For some reason, I did not find this one earlier.
+
+Then finally the 100 days is over. Too tired to write something sensible by now, but
+it was definitively worth the effort.
