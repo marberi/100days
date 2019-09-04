@@ -23,3 +23,18 @@ After quite some back and forth, it looks like it works when fitting straight
 lines. I also had a test on some simulated galaxies, comparing to the more
 traditional way of outputting probability distributions. So far it seems promising,
 but I need to test using real data.
+
+# Day 302 [2019-09-03]
+Read some further blog posts about mixture density networks (MDN) and large parts
+of the original paper [Bishop 1994](https://publications.aston.ac.uk/id/eprint/373/1/NCRG_94_004.pdf)
+
+# Day 303 [2019-09-04]
+Experimented more with these types of networks. The Bishop1994 paper had one very
+simple example, generating 1000 datapoints with two variables. For certain input
+values, two output values are equally likely. There are simply not enough information
+to fully give the output. Here the posterior should be multimodel. I have polished
+up the [notebook](https://github.com/marberi/100days/blob/master/mdn_bishop.ipynb).
+Below is a reproduction of Fig.7 in the paper
+
+
+![Bishop1994 Fig.7](https://github.com/marberi/100days/blob/master/bishop_repod_fig7.png)
