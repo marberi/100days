@@ -6,7 +6,7 @@ each day for 100 days. Previously I have done this twice, as documented in
 third round started on September 3rd.
 
 
-# Day 301 [2019-09-02]
+# Day 201 [2019-09-02]
 Today I worked on another way of outputting probablity distributions from the neural
 network. The approach I have been taking so far is creating a grid in the 1D output
 space and predicting the probability in each grid cell. The output is then constrained
@@ -24,11 +24,11 @@ lines. I also had a test on some simulated galaxies, comparing to the more
 traditional way of outputting probability distributions. So far it seems promising,
 but I need to test using real data.
 
-# Day 302 [2019-09-03]
+# Day 202 [2019-09-03]
 Read some further blog posts about mixture density networks (MDN) and large parts
 of the original paper [Bishop 1994](https://publications.aston.ac.uk/id/eprint/373/1/NCRG_94_004.pdf)
 
-# Day 303 [2019-09-04]
+# Day 203 [2019-09-04]
 Experimented more with these types of networks. The Bishop1994 paper had one very
 simple example, generating 1000 datapoints with two variables. For certain input
 values, two output values are equally likely. There are simply not enough information
@@ -36,5 +36,17 @@ to fully give the output. Here the posterior should be multimodel. I have polish
 up the [notebook](https://github.com/marberi/100days/blob/master/mdn_bishop.ipynb).
 Below is a reproduction of Fig.7 in the paper
 
-
 ![Bishop1994 Fig.7](https://github.com/marberi/100days/blob/master/bishop_repod_fig7.png)
+
+# Day 204 [2019-09-05]
+The mixture density network used an exponential to keep the width of the distribution.
+Alternatively, one can use 1+elu, which I saw elsewhere. Here elu is the exponential
+linear unit. Above zero it equals ReLU (identity function), but has a smooth transition
+around zero and approach -1 when going to minus infintity. I tested training the network
+with both approaches five times each. The result is shown below.
+
+![exp versus elu](https://github.com/marberi/100days/blob/master/exp_elu.png)
+
+For this case, the elu converge faster. Further, I was reading up on
+[Machine learning in astronomy](https://arxiv.org/pdf/1904.07248.pdf)
+while waiting.
