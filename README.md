@@ -50,3 +50,25 @@ with both approaches five times each. The result is shown below.
 For this case, the elu converge faster. Further, I was reading up on
 [Machine learning in astronomy](https://arxiv.org/pdf/1904.07248.pdf)
 while waiting.
+
+# Day 205 [2019-09-06]
+Implemented a mixture density network in the distance determination pipeline, being
+able to compare with the traditional results. Some of the results does not make sense
+at all, with the network not training properly.
+
+# Day 206 [2019-09-07]
+Today I managed to get it working. In the end, not fully sure what ended up making
+the difference. The results starting to make more sense when adding a non-linear
+layer (ReLU) directly before the MDN. This network is quite deep and I had skipped
+this single ReLU. Moreover, there was a significant performance problem when 
+evaluating the MDN on the test set. Outputting the values on a grid was extremely
+fast. For some reason, evaluating the MDN was rather slow. This ended up becoming
+a serious bottleneck, since earlier I evaluated the test set metrcis after each
+epoch. Only doing this every 50th epoch lead to a significant speedup. This allowed
+for creating a sufficiently large run and evaluating the performance. The MDN now
+give sensible results for a simplified test, which has removed some of the results
+of pretraining on simulations.
+
+# Day 207 [2019-09-08]
+
+# Modify simulation pretraining....
