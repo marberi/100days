@@ -77,7 +77,7 @@ combining man different output classes.
 
 # Day 207 [2019-09-09]
 Wanted to look at how to input errors to the network, but without much success. Read
-through [blog post](https://medium.com/ai%C2%B3-theory-practice-business/top-6-errors-novice-machine-learning-engineers-make-e82273d394db# Day 207 [2019-09-08])
+through [blog post](https://medium.com/ai%C2%B3-theory-practice-business/top-6-errors-novice-machine-learning-engineers-make-e82273d394db)
 and some other articles.
 
 # Day 208 [2019-09-10]
