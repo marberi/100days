@@ -69,6 +69,32 @@ for creating a sufficiently large run and evaluating the performance. The MDN no
 give sensible results for a simplified test, which has removed some of the results
 of pretraining on simulations.
 
-# Day 207 [2019-09-08]
+# Day 206 [2019-09-08]
+Modified the part of the distance estimation which was pretraining on simulation to
+also be able to use a mdn. I managed to make some different runs. While working, I
+did not achieve better results than constructing the posterior distribution by
+combining man different output classes.
 
-# Modify simulation pretraining....
+# Day 207 [2019-09-09]
+Wanted to look at how to input errors to the network, but without much success. Read
+through [blog post](https://medium.com/ai%C2%B3-theory-practice-business/top-6-errors-novice-machine-learning-engineers-make-e82273d394db# Day 207 [2019-09-08])
+and some other articles.
+
+# Day 208 [2019-09-10]
+Read through the noise2noise paper.
+
+# Day 209 [2019-09-11]
+Read the noise2void paper. In the noise2noise paper, one would not need clean examples
+to denoise the image, but multiple noisy realization of the same underlying image. This
+is not always possible to get. Quite interesting for one of our applications.
+
+# Day 210 [2019-09-12]
+Managed to find some references on how to treat uncertainties in the neural network. The
+[Lightweight probabilistic deep learning](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gast_Lightweight_Probabilistic_Deep_CVPR_2018_paper.pdf)
+paper is explaining how to let the activations be probabilistic. For other approaches
+the weights would be interpret as Gaussians. This approach is supposed to be significantly
+faster and also avoid repeated forward passes, which many probabilistic methods rely
+on.
+
+I also attempted making another implementation of the MDN network. Evaluating the probability
+function is now extremely fast, but the training seems to be affected. Not sure why.
