@@ -94,7 +94,28 @@ Managed to find some references on how to treat uncertainties in the neural netw
 paper is explaining how to let the activations be probabilistic. For other approaches
 the weights would be interpret as Gaussians. This approach is supposed to be significantly
 faster and also avoid repeated forward passes, which many probabilistic methods rely
-on.
+on. I also attempted making another implementation of the MDN network.
+Evaluating the probability function is now extremely fast, but the training
+seems to be affected. Not sure why.
 
-I also attempted making another implementation of the MDN network. Evaluating the probability
-function is now extremely fast, but the training seems to be affected. Not sure why.
+# Day 211 [2019-09-13]
+Found out that the amount of dropout used is critical for getting a good performance. For
+classification tasks, you can easily use 20-50\% dropout for good results. I ended up
+using 2\% in the early layers. More dropout degraded the results.
+
+# Day 212 [2019-09-14]
+Watched interview with [Jeremy Howard](https://www.youtube.com/watch?v=J6XcP4JOHmk&t=4840s).
+
+# Day 213 [2019-09-15]
+Continued tweaking of the model, experimenting with the results. The results
+are looking quite close to the previous ones when considering all objects.
+However, it looks like the result is improving compared to the previous
+results when only considering the best 50\%.
+
+# Day 214 [2019-09-16]
+Worked on writing an application today, which will contain a significant amount
+about deep learning. Is deep learning hype? I read found
+[this article](https://medium.com/machine-learning-in-practice/deep-learnings-permanent-peak-on-gartner-s-hype-cycle-96157a1736e) and
+[Howard interview](https://www.youtube.com/watch?time_continue=1202&v=i76E6tvey_M)
+quite constructive.
+
