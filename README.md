@@ -117,5 +117,4 @@ Worked on writing an application today, which will contain a significant amount
 about deep learning. Is deep learning hype? I read found
 [this article](https://medium.com/machine-learning-in-practice/deep-learnings-permanent-peak-on-gartner-s-hype-cycle-96157a1736e) and
 [Howard interview](https://www.youtube.com/watch?time_continue=1202&v=i76E6tvey_M)
-quite constructive.
-
+quite constructive. Also read on [transfer learning](https://arxiv.org/pdf/1812.06055.pdf)
