@@ -118,3 +118,13 @@ about deep learning. Is deep learning hype? I read found
 [this article](https://medium.com/machine-learning-in-practice/deep-learnings-permanent-peak-on-gartner-s-hype-cycle-96157a1736e) and
 [Howard interview](https://www.youtube.com/watch?time_continue=1202&v=i76E6tvey_M)
 quite constructive. Also read on [transfer learning](https://arxiv.org/pdf/1812.06055.pdf)
+
+Quote from the paper:
+"As an example relevant to ICF, researchers at the National Ignition Facility
+(NIF) [18] have used transfer learning to classify images of different types of
+damage that occur on the optics at NIF. There are not enough labeled optics
+images to train a network from scratch, but transfer learning with a network
+pre-trained on ImageNet [13] produces models which classify optics damage with
+over 98% accuracy."
+
+That is quite a strech of domain.
