@@ -128,3 +128,24 @@ pre-trained on ImageNet [13] produces models which classify optics damage with
 over 98% accuracy."
 
 That is quite a strech of domain.
+
+
+===============================================
+
+https://www.youtube.com/watch?v=Ui1KbmutX0k
+
+https://slideslive.com/38917690/multitask-learning-in-the-wilderness
+=======================
+
+Friday:
+Looked at panel debate about probabililistic networks.
+
+===
+Saturday:
+https://papers.nips.cc/paper/1624-neural-networks-for-density-estimation.pdf
+
+messed around with code for doing this.
+
+==========
+Sunday:
+Google AI paper on unsupervised learning. And the res2next paper.
