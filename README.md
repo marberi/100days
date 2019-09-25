@@ -171,4 +171,6 @@ interview. There was some interesting points, like her thinking about medical
 problems and the potential for using deep learning for early cancer diagnosis. 
 
 # Day 222 [2019-09-25]
-TODAY - [TODO]
+Continue working on the reweighting, doing some expressions on paper and implementing
+them. As shown below, I have no success yet.
+![Reweighting failure](https://github.com/marberi/100days/blob/master/dist_reweight.png)
