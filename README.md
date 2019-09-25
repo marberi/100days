@@ -129,23 +129,46 @@ over 98% accuracy."
 
 That is quite a strech of domain.
 
+# Day 214 [2019-09-17]
+Watched [Yann Lecun](https://www.youtube.com/watch?v=SGSOCuByo24) interview.
 
-===============================================
+# Day 215 [2019-09-18]
+Read about [transfer learning in astronomy](https://arxiv.org/abs/1812.10403) and some
+other papers.
 
-https://www.youtube.com/watch?v=Ui1KbmutX0k
+# Day 216 [2019-09-19]
+Looked at a [video](https://www.youtube.com/watch?v=Ui1KbmutX0k) and  
+[presentation](https://slideslive.com/38917690/multitask-learning-in-the-wilderness)
+about transfer learning and multi-task learning.
 
-https://slideslive.com/38917690/multitask-learning-in-the-wilderness
-=======================
-
-Friday:
+# Day 217 [2019-09-20]
 Looked at panel debate about probabililistic networks.
 
-===
-Saturday:
-https://papers.nips.cc/paper/1624-neural-networks-for-density-estimation.pdf
+# Day 218 [2019-09-21]
+One idea I explored earlier was using neural networks for density estimation. The
+earlier attempts, some semesters ago, was not working very well. Attempting again,
+I read through [paper on density estimation](https://papers.nips.cc/paper/1624-neural-networks-for-density-estimation.pdf)
+and made an implementing in the notebook.
 
-messed around with code for doing this.
+# Day 219 [2019-09-22]
+Read through a [paper](https://arxiv.org/pdf/1811.12359.pdf) from Google AI on
+unsupervised learning. It was voted the best paper on ICML2019. The most interesting
+part was actually the style. Many papers are focusing on achieving a minor improvement
+on some benchmark. Here the authors was giving some proofs and a lot of tests that
+a general unsupervised separation was possible. They has a ridiculles number of pages
+in the appendix.
 
-==========
-Sunday:
-Google AI paper on unsupervised learning. And the res2next paper.
+Also read the [res2next paper](https://arxiv.org/pdf/1904.01169.pdf)
+
+# Day 220 [2019-09-23]
+Continued with the notebook from day 218, attempting to have it working. Did not
+function either after attemping different things for an hour. However, late I
+realized at least one problem. Hopefully that will solve the issue.
+
+# Day 221 [2019-09-24]
+Watched [Regina Barzilay: Deep Learning for Cancer Diagnosis and Treatment](https://www.youtube.com/watch?v=x0-zGdlpTegI)
+interview. There was some interesting points, like her thinking about medical
+problems and the potential for using deep learning for early cancer diagnosis. 
+
+# Day 222 [2019-09-25]
+TODAY - [TODO]
