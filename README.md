@@ -174,3 +174,9 @@ problems and the potential for using deep learning for early cancer diagnosis.
 Continue working on the reweighting, doing some expressions on paper and implementing
 them. As shown below, I have no success yet.
 ![Reweighting failure](https://github.com/marberi/100days/blob/master/dist_reweight.png)
+
+# Day 223 [2019-09-26]
+
+Read through two papers 
+([paper 1](https://arxiv.org/pdf/1711.09919.pdf), [paper 2](https://arxiv.org/pdf/1903.03105.pdf))
+on using recursive neural networks for denoising gravitational wave observations.
