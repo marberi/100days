@@ -180,3 +180,19 @@ them. As shown below, I have no success yet.
 Read through two papers 
 ([paper 1](https://arxiv.org/pdf/1711.09919.pdf), [paper 2](https://arxiv.org/pdf/1903.03105.pdf))
 on using recursive neural networks for denoising gravitational wave observations.
+
+
+# Day 224 [2019-09-27]
+video - whic?
+
+# Day 225 [2019-09-28]
+
+# Day 226 [2019-09-29]
+First test of actually using the PAUS spectras.
+![Distance test](https://github.com/marberi/100days/blob/master/redshift_test.png)
+
+
+# Day 227 [2019-09-29]
+Denoising autoencoders to unsupervise feature extraction from galaxy data.
+
+https://arxiv.org/pdf/1705.05620.pdf
