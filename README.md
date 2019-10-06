@@ -176,17 +176,23 @@ them. As shown below, I have no success yet.
 ![Reweighting failure](https://github.com/marberi/100days/blob/master/dist_reweight.png)
 
 # Day 223 [2019-09-26]
-
 Read through two papers 
 ([paper 1](https://arxiv.org/pdf/1711.09919.pdf), [paper 2](https://arxiv.org/pdf/1903.03105.pdf))
 on using recursive neural networks for denoising gravitational wave observations.
 
 # Day 224 [2019-09-27]
-video - whic?
+Watch through [Francois Chollet interview](https://www.youtube.com/watch?v=Bo8MY4JpiXE&feature=youtu.be), at least
+partially.
 
 # Day 225 [2019-09-28]
+Looked at the [Turing Lecture](https://www.youtube.com/watch?v=VsnQf7exv5I) talk.
 
 # Day 226 [2019-09-29]
+Next video with [Susskind](https://www.youtube.com/watch?v=s78hvV3QLUE&t=2179s) in the AGI
+podcast series. He is a well known persons from the physics community. A bit too many
+vidoes in a row by now.
+
+# Day 227 [2019-09-30]
 First test of actually using the PAUS spectras. Here I used the simulations to
 predict the distance from a subset of the observations. Without noise the results
 was better than expected from what I previously has read in the literature. A bit
@@ -194,16 +200,19 @@ unecpected.
 
 ![Distance test](https://github.com/marberi/100days/blob/master/redshift_test.png)
 
-# Day 227 [2019-09-29]
+# Day 228 [2019-10-01]
 Read through a [paper](https://arxiv.org/pdf/1705.05620.pdf) which used denoising
 autoencoders to unsupervise feature extraction from galaxy data. This is relevant
 for what I am doing.
 
-# Day 228 [2019-09-29]
+# Day 229 [2019-10-02]
+Read some blog posts. Not having the links by now.
+
+# Day 230 [2019-10-03]
 Wanted to look more into multi-task learning. I read an
 [overview paper](https://arxiv.org/pdf/1706.05098.pdf) from Sebastian Ruder.
 
-# Day 229 [2019-09-29]
+# Day 231 [2019-10-04]
 One problem I have looked on many times is using neural networks for speeding
 up the calculations of simulations. Basically, you have a large training sample
 with noiseless examples and would like to train a network to be able to produce
@@ -212,12 +221,9 @@ kind of work, but the error on the output was 2-3% at best. This is not
 sufficiently good for our application. Finding relevant literature was not
 easy. In the end, I figured out the magic searchword was "interpolation". 
 
-# Day 230 [2019-10-05]
+# Day 232 [2019-10-05]
 Watched [Gary Marcus: Toward a Hybrid of Deep Learning and Symbolic AI](https://www.youtube.com/watch?v=vNOTDn3D_RI)
 interview. It was quite interesting hearing from an insider talking about what
 he considered some limitations of current deep learning systems. Abstract
 concepts seems to be missing in deep learning networks and it unclear how
 to build them in.
-
-
-
