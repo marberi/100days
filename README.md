@@ -206,7 +206,8 @@ autoencoders to unsupervise feature extraction from galaxy data. This is relevan
 for what I am doing.
 
 # Day 229 [2019-10-02]
-Read some blog posts. Not having the links by now.
+Worked on writing a proposal based on deep learning methods. While doing this
+application for a while, today I spent 6 hours on the main project part.
 
 # Day 230 [2019-10-03]
 Wanted to look more into multi-task learning. I read an
@@ -227,3 +228,11 @@ interview. It was quite interesting hearing from an insider talking about what
 he considered some limitations of current deep learning systems. Abstract
 concepts seems to be missing in deep learning networks and it unclear how
 to build them in.
+
+# Day 233 [2019-10-06]
+Continued looking at the interpolation network. Instead of only outputting the
+value, I also returned the error. The hope was to use this to downweight problematic
+points. In the image below, the three columns are the training loss, test loss and
+the relative error. It did not work very well. I also tried other sources of tweaking.
+
+![Not coverging](https://github.com/marberi/100days/blob/master/not_converging.png)
