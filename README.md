@@ -236,3 +236,11 @@ points. In the image below, the three columns are the training loss, test loss a
 the relative error. It did not work very well. I also tried other sources of tweaking.
 
 ![Not coverging](https://github.com/marberi/100days/blob/master/not_converging.png)
+
+====================
+Thursday:
+
+Continuing with trying to predict the fluxes. Both using ELU and trying to
+reduce the prediction to using a single band.
+
+![Relative error](https://github.com/marberi/100days/blob/master/uncertain_pred.png)
