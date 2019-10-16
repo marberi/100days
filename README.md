@@ -237,10 +237,71 @@ the relative error. It did not work very well. I also tried other sources of twe
 
 ![Not coverging](https://github.com/marberi/100days/blob/master/not_converging.png)
 
-====================
-Thursday:
+# Day 234 [2019-10-07]
+Last full day of writing a proposal which has a strong machine learning
+component. Looked up references on multi-task learning, including [Multi-task
+learning book](https://dl.acm.org/citation.cfm?id=262872)
 
+# Day 235 [2019-10-08]
+Continuing about obsessing about the interpolating of measurements using neural
+networks, looking at [paper] (https://arxiv.org/abs/1906.05661)
+
+# Day 236 [2019-10-09]
+Also played around with the interpolation, reading up some papers.
+
+# Day 237 [2019-10-10]
 Continuing with trying to predict the fluxes. Both using ELU and trying to
 reduce the prediction to using a single band.
 
 ![Relative error](https://github.com/marberi/100days/blob/master/uncertain_pred.png)
+
+This was after reading some paper which talked about a smooth non-linear transition
+would work better than a simple ReLU. That did not seem to be the case.
+
+# Day 238 [2019-10-11]
+Looked into various sources of tranfer learning, including the paper
+[A survey on transfer learning](https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf).
+
+# Day 239 [2019-10-12]
+Not very effective. I was searching if there was some new trends, looking at
+various articles.
+
+# Day 240 [2019-10-13]
+Read through quite some papers, being away from the laptop today.
+
+In [Shapely framework](https://arxiv.org/pdf/1910.04214.pdf) the authors introduce
+a way to determine if improved performance comes from a change in the algorithms
+or the data. Quite technical.
+
+[Foggy scenes](https://arxiv.org/pdf/1910.03997.pdf) tested the improvements
+when degrading scenes with artificial fog. This is possible when having a 3D
+model and a simple model of the fog, where the transparency is distance
+dependent.
+
+[Harware acceleration](https://arxiv.org/pdf/1910.03060.pdf). Not the most
+interesting paper. The compared running on CPU or GPUs. The paper did not
+give a good impression.
+
+# Day 241 [2019-10-14]
+Watched [Watson interview](https://www.youtube.com/watch?v=Whtt2H5_isM) on how
+they constructed Watson and beat the best human player in Jeopardy. He had an
+interesting perspective on how the project was run. With a difficult task, it
+is easy to assume achieving the goal would require inventing something 
+completely new. Instead they mostly used existing technology and let different
+groupd invent on separate parts. 
+
+# Day 242 [2019-10-15]
+I wanted to test a specific transfer learning technique. For this I needed a
+simple example. For this I constructed a CNN which could determine the
+frequency of a wave. Testing this simple example, it did not work at all. 
+Which should not be the case. At the end of 1.5 hours I had removed all
+complications, but the network was still not working.
+
+![Sinus recovery](https://github.com/marberi/100days/blob/master/sin_not_recovered.png)
+
+Update: In the end, the problem was located in two matrices in the loss function
+being broadcasted differently than expected. Not too easy to detect, since I
+directly afterwards did a mean of the results.
+
+# Day 243 [2019-10-16]
+TODO: Scheduled for later today.
