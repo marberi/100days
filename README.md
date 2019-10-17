@@ -304,4 +304,5 @@ being broadcasted differently than expected. Not too easy to detect, since I
 directly afterwards did a mean of the results.
 
 # Day 243 [2019-10-16]
-TODO: Scheduled for later today.
+Worked on adapting a new set of simulations and then pretrained the network with
+these. It was looking good so far.
