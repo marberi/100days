@@ -306,3 +306,20 @@ directly afterwards did a mean of the results.
 # Day 243 [2019-10-16]
 Worked on adapting a new set of simulations and then pretrained the network with
 these. It was looking good so far.
+
+# Explanation of the missing days.
+In the middle of the third round between 200 and 300 days, I started loosing the
+interest. Around the same time I worked on finishing up a research paper using
+deep learning techniques. Focusing on finishing this paper felt more productive
+at the time. This resulted in a very long time where I did not follow this good
+habit of working on deep learning each day. One pandemic later, I am finally
+back again.
+
+# Day 244 [2021-04-30]
+Consider having a distribution and wanting to create a density estimator (like
+the KDE). Is it possible todo this with a neural network? Previous attempts that
+I had on this failed. By now I tested creating a neural network which gets a
+single constant input. The output is given by using a mixture density network.
+Below is a plot showing how this fits.
+
+![Model probability](https://github.com/marberi/100days/blob/master/model_prob.png)
