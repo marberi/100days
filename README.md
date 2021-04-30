@@ -322,4 +322,4 @@ I had on this failed. By now I tested creating a neural network which gets a
 single constant input. The output is given by using a mixture density network.
 Below is a plot showing how this fits.
 
-![Model probability](https://github.com/marberi/100days/blob/master/model_prob.png)
+![Model probability](https://github.com/marberi/100days/blob/master/model_prob.jpg)
