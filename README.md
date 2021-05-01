@@ -323,3 +323,18 @@ single constant input. The output is given by using a mixture density network.
 Below is a plot showing how this fits.
 
 ![Model probability](https://github.com/marberi/100days/blob/master/model_prob.jpg)
+
+# Day 245 [2021-05-01]
+Another problem with the MDN is when having a multi-variate distribution. One can
+in a simple way return multiple independent predictions. The problem is when there are
+correlation between the various predictions, which is very often the case. Below is
+an example of two correlated Gaussians.
+
+![Multi variate](https://github.com/marberi/100days/blob/master/simple_multi_variate.jpg)
+
+In general there were not a lot of useful literature on the topic. The technical
+note
+[Training Mixture Density Networks with full covariance matrices](https://arxiv.org/pdf/2003.05739.pdf)
+had some useful tips. Some (Cholesky factorization) was along what I though of
+doing, but it included also some other ideas (eq.10). Tomorrow I hope to make
+an implementation.
