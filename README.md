@@ -338,3 +338,13 @@ note
 had some useful tips. Some (Cholesky factorization) was along what I though of
 doing, but it included also some other ideas (eq.10). Tomorrow I hope to make
 an implementation.
+
+# Day 246 [2021-05-02]
+Worked on actually making the implementation, fitting the MDN to a 2D Gaussian with
+a correlation between the variable. The result
+
+
+![First try on 2D MDN](https://github.com/marberi/100days/blob/master/ifirst_try_2d.jpg)
+
+shows some more work is needed.
+
