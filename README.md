@@ -344,7 +344,7 @@ Worked on actually making the implementation, fitting the MDN to a 2D Gaussian w
 a correlation between the variable. The result
 
 
-![First try on 2D MDN](https://github.com/marberi/100days/blob/master/ifirst_try_2d.jpg)
+![First try on 2D MDN](https://github.com/marberi/100days/blob/master/first_try_2d.jpg)
 
 shows some more work is needed.
 
