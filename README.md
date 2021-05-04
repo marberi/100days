@@ -348,3 +348,6 @@ a correlation between the variable. The result
 
 shows some more work is needed.
 
+# Day 247 [2021-05-03]
+Worked on installing tensorboards. Should be simple, but for some reason it was not
+willing to connect.
