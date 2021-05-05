@@ -351,3 +351,7 @@ shows some more work is needed.
 # Day 247 [2021-05-03]
 Worked on installing tensorboards. Should be simple, but for some reason it was not
 willing to connect.
+
+# Day 248 [2021-05-04]
+Continued working on tensorboard. After some beating I had it running. Uploading to
+tensorboard.dev is a neat feature.
