@@ -355,3 +355,77 @@ willing to connect.
 # Day 248 [2021-05-04]
 Continued working on tensorboard. After some beating I had it running. Uploading to
 tensorboard.dev is a neat feature.
+
+# Day 249 [2021-05-05]
+[VIDEO GTC intro]
+
+# Day 250 [2021-05-06]
+Experimenting to find the problems with the GMM with covariance. The code looks fine.
+When reducing to one component, I manage to get the result below
+![Somewhat working 2D MDN](https://github.com/marberi/100days/blob/master/gmm_data_model.jpg)
+
+which visually looks quite similar (did not test further). What is going on will be
+the topic for another day.
+
+# Day 251 [2021-05-07]
+
+# Day 252 [2021-05-08]
+
+# Day 253 [2021-05-09]
+Worked on reading through the webpage that Christian sent.
+
+# Day 253 [2021-05-10]
+Got the multi-dimentional MDN working and also worked on a calibration network for
+astronomical images.
+
+# Day 254 [2021-05-11]
+Worked on preparing the input when systematically removing individual images.
+
+# Day 255 [2021-05-12]
+Trained an autoencoder to remove noise in the zero-points.
+
+# Day 256 [2021-05-13]
+Listened to interview on Spotify on MLDL in Heiniken.
+
+# Day 257 [2021-05-14]
+Started testing the zero-point auto-encoder by downloading the data to be corrected
+and writing the code for managing joining the data. Unfortunately I ended up having
+a problem where some data was not exactly what was expected, which took some time
+to figure out.
+
+# Day 258 [2021-05-15]
+Continued with the auto-encoder. It only gives a quite small improvement on the
+final numbers.
+
+# Day 259 [2021-05-16]
+Listened to some interview on how NSF is investing into deep learning.
+
+# Day 260 [2021-05-17]
+Created a conference poster on the photometric redshift with deep learning paper I
+published last year.
+
+# Day 261 [2021-05-18]
+Extended the zero-point auto-encoder to work with multiple bands. In the end one
+only find a tiny improvement. I presented these results to the PAUS collaboration.
+
+# Day 262 [2022-05-19]
+Watched "Using Deep Learning and Simulation to Teach Robots Manipulation in
+Complex Environments" from GTC2021 and the start of another video.
+
+# Day 263 [2022-05-20]
+Experimented more with tensorboard. Among other things, I had a problem with
+using tensorboards inline in the notebook which did get fixed before deleting
+the content of the log directory.
+
+![Tensorboard inline](https://github.com/marberi/100days/blob/master/tensorboard_inline_jupyterlab.png)
+
+
+# Day 264 [2022-11-04]
+Experimented with trying to map out instrumental zero-points by directly predicting the 
+zero-point per star. Below is a pattern
+
+![ZP trend](https://github.com/marberi/100days/blob/master/zp_trend.png)
+
+which shows up for all image IDs. This trend is probably because the network has not
+been train enough/correctly and so far it focus on getting the correct zero-point per
+image.
