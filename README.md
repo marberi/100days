@@ -429,3 +429,15 @@ zero-point per star. Below is a pattern
 which shows up for all image IDs. This trend is probably because the network has not
 been train enough/correctly and so far it focus on getting the correct zero-point per
 image.
+
+# Day 265 [2022-11-05]
+The problem yesterday seems to come from how the training set is sampled. We have
+12096085 observations divided on 204920 images. When selecting 1000 galaxies in a
+batch, each of the stars most likely belong to a different image. The simplest way
+for the network to get a good fit is adjusting the zero-point for each image. This
+means it will never learn the pattern as a function of the position on the CCD.
+
+Instead I have switched to loading all stars (~200) in a mosaic at once. Writing
+this custom dataloader was what ended up taking most time, since this needs to be
+computationally efficient. By now the network is training again.
+
