@@ -441,3 +441,9 @@ Instead I have switched to loading all stars (~200) in a mosaic at once. Writing
 this custom dataloader was what ended up taking most time, since this needs to be
 computationally efficient. By now the network is training again.
 
+# Day 266 [2022-11-06]
+Continued looking at the AI for medicine course from coursera. Currently in the
+first week. When getting to the weighting of underrepresented classes I had a 
+look at an astronomical dataset with exactly this problem.
+
+
