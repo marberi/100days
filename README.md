@@ -446,4 +446,18 @@ Continued looking at the AI for medicine course from coursera. Currently in the
 first week. When getting to the weighting of underrepresented classes I had a 
 look at an astronomical dataset with exactly this problem.
 
+# Day 267 [2022-11-07]
+First spent some time attempting to get the visual debugger in jupyter lab
+working. I have seen it beeing installed by default, but never found out how it
+worked. It turnes out you need to install [xeus-python](https://github.com/jupyter-xeus/xeus-python).  
+Installing the binary worked, but I did not get how to get one of the conda
+environments listed in Jupyterlab. There did however exist a "xpython" option
+in the list, pointing to an anaconda installation. I could play around with
+this. Also, the [mamba](https://github.com/mamba-org/mamba) package manager
+is a faster drop-in replacement for conda.
 
+More importantly, I continued working on mapping out the zero-point variations
+accross the CCD. Creating a custom "collate\_fn" function, I can now process
+multiple mosaics at once. Running the code with 10 mosaics was for some reason
+much faster than expected. By now the CCD pattern is different for different
+images.
