@@ -461,3 +461,16 @@ accross the CCD. Creating a custom "collate\_fn" function, I can now process
 multiple mosaics at once. Running the code with 10 mosaics was for some reason
 much faster than expected. By now the CCD pattern is different for different
 images.
+
+# Day 268 [2022-11-08]
+Continued working on predicting the zero-points. While one should predict this
+on the position of the galaxies, I tested predicting a 50x50 grid and then
+averaged over all positions to get an image level prediction. This could then
+easily be compared with a classical algorithm. Plotting the histogram of image
+zero-point, I find that
+
+![Zero-point histogram](https://github.com/marberi/100days/blob/master/spatial_zero_point_distr.png)
+
+where the neural network prediction tends to center around the median. That
+seems to be a problem with using a L1 loss. Tomorrow I will attempt using a
+mixture density network.
