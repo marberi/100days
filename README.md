@@ -474,3 +474,12 @@ zero-point, I find that
 where the neural network prediction tends to center around the median. That
 seems to be a problem with using a L1 loss. Tomorrow I will attempt using a
 mixture density network.
+
+# Day 269 [2022-11-09]
+Setting up some broken environment again and testing converting the output to
+a mixture density network. By now it at least trains. Later I will try to
+optimize this further.
+
+# Day 270 [2022-11-10]
+Read through deblending paper before tomorrows journal club.
+[Deblending paper](https://arxiv.org/pdf/2110.08180.pdf)
