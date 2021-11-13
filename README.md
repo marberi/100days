@@ -483,3 +483,13 @@ optimize this further.
 # Day 270 [2022-11-10]
 Read through deblending paper before tomorrows journal club.
 [Deblending paper](https://arxiv.org/pdf/2110.08180.pdf)
+
+
+# Day 270 [2022-11-11]
+Watch the GTC 2021 keynote.
+
+# Day 271 [2022-11-12]
+Finished week 1 of AI for medical diagnosis on coursera.
+
+# Day 272 [2022-11-13]
+And then week 2. It is quite simple.
