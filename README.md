@@ -493,3 +493,7 @@ Finished week 1 of AI for medical diagnosis on coursera.
 
 # Day 272 [2022-11-13]
 And then week 2. It is quite simple.
+
+# Day 273 [2022-11-14]
+Kind of finished week 3 and the first course. Because of some technical issue coursera does
+not let me submit the coursework right now. A bit annoying.
