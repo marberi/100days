@@ -497,3 +497,10 @@ And then week 2. It is quite simple.
 # Day 273 [2022-11-14]
 Kind of finished week 3 and the first course. Because of some technical issue coursera does
 not let me submit the coursework right now. A bit annoying.
+
+# Day 274 [2022-11-15]
+Worked through week 1 and 2 of the second course.
+
+# Day 275 [2022-11-16]
+Trained the MDN network for zero-points. While training I ended up going through some
+blog posts about MLOps.
