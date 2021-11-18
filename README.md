@@ -504,3 +504,12 @@ Worked through week 1 and 2 of the second course.
 # Day 275 [2022-11-16]
 Trained the MDN network for zero-points. While training I ended up going through some
 blog posts about MLOps.
+
+# Day 276 [2022-11-17]
+Watched on of the GTC talks.
+
+# Day 277 [2022-11-18]
+Worked on the zero-point prediction with MDN. By now it gives a reasonable distribution.
+Comparing the predictions directly, there is a lot of scatter, but it is uncertain what
+level is expected from the errors.
+![Zero-point prediction](https://github.com/marberi/100days/blob/master/predicted_star_zp.png)
